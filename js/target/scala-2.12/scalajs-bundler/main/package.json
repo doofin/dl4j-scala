@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "xstream": "10.9.0"
+  },
+  "devDependencies": {
+    "webpack": "3.5.5",
+    "webpack-dev-server": "2.7.1",
+    "source-map-loader": "0.2.1",
+    "concat-with-sourcemaps": "1.0.4"
+  }
+}

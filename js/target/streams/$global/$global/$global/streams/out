@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 137439 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 30681 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 171666 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: false[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 6776 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 0 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 71 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 9673 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 91437 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 4499 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 96085 us[0m
+[0m[[0m[0minfo[0m] [0m[0mBundling dependencies with source maps[0m

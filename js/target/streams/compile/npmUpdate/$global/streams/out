@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0mUpdating NPM dependencies[0m
+[0m[[0m[31merror[0m] [0m[0mnpm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules/fsevents):[0m
+[0m[[0m[31merror[0m] [0m[0mnpm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})[0m
+[0m[[0m[0minfo[0m] [0m[0madded 116 packages in 5.755s[0m
