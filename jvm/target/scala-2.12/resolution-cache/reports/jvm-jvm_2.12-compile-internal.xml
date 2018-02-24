@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="jvm"
+		module="jvm_2.12"
+		revision="0.1.0-SNAPSHOT"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180221203710"/>
+	<dependencies>
+		<module organisation="org.nd4j" name="nd4j-cuda-8.0-platform">
+			<revision name="0.9.1" status="release" pubdate="20170812224527" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="88">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11845" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-cuda-8.0-platform/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nd4j/nd4j-cuda-8.0-platform/0.9.1/nd4j-cuda-8.0-platform-0.9.1.pom"/>
+				<caller organisation="jvm" name="jvm_2.12" conf="compile-internal, compile, provided, optional" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="nd4j-cuda-8.0-platform" type="jar" ext="jar" status="no" details="" size="2481" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-cuda-8.0-platform/jars/nd4j-cuda-8.0-platform-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-cuda-8.0-platform/0.9.1/nd4j-cuda-8.0-platform-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-cuda-8.0">
+			<revision name="0.9.1" status="release" pubdate="20170812224505" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="91">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12533" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-cuda-8.0/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-cuda-8.0-platform" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="jvm" name="jvm_2.12" conf="compile-internal, compile, provided, optional" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="nd4j-cuda-8.0" type="jar" ext="jar" extra-classifier="linux-ppc64le" status="no" details="" size="81644159" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-cuda-8.0/jars/nd4j-cuda-8.0-0.9.1-linux-ppc64le.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-ppc64le.jar"/>
+					</artifact>
+					<artifact name="nd4j-cuda-8.0" type="jar" ext="jar" status="no" details="" size="329590" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-cuda-8.0/jars/nd4j-cuda-8.0-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1.jar"/>
+					</artifact>
+					<artifact name="nd4j-cuda-8.0" type="jar" ext="jar" extra-classifier="linux-x86_64" status="no" details="" size="125387843" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-cuda-8.0/jars/nd4j-cuda-8.0-0.9.1-linux-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-x86_64.jar"/>
+					</artifact>
+					<artifact name="nd4j-cuda-8.0" type="jar" ext="jar" extra-classifier="macosx-x86_64" status="no" details="" size="120256575" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-cuda-8.0/jars/nd4j-cuda-8.0-0.9.1-macosx-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-macosx-x86_64.jar"/>
+					</artifact>
+					<artifact name="nd4j-cuda-8.0" type="jar" ext="jar" extra-classifier="windows-x86_64" status="no" details="" size="121400789" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-cuda-8.0/jars/nd4j-cuda-8.0-0.9.1-windows-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-windows-x86_64.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-native-api">
+			<revision name="0.9.1" status="release" pubdate="20170812224448" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="92">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9975" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-native-api/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nd4j/nd4j-native-api/0.9.1/nd4j-native-api-0.9.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-cuda-8.0" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="nd4j-native-api" type="jar" ext="jar" status="no" details="" size="38389" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-native-api/jars/nd4j-native-api-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-native-api/0.9.1/nd4j-native-api-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="cuda-platform">
+			<revision name="8.0-6.0-1.3" status="release" pubdate="20170503074639" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="89">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="5075" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/cuda-platform/ivy-8.0-6.0-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/cuda-platform/8.0-6.0-1.3/cuda-platform-8.0-6.0-1.3.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-cuda-8.0-platform" conf="default, compile, runtime, master" rev="8.0-6.0-1.3" rev-constraint-default="8.0-6.0-1.3" rev-constraint-dynamic="8.0-6.0-1.3" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="cuda-platform" type="jar" ext="jar" status="no" details="" size="2162" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/cuda-platform/jars/cuda-platform-8.0-6.0-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/cuda-platform/8.0-6.0-1.3/cuda-platform-8.0-6.0-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="cuda">
+			<revision name="8.0-6.0-1.3" status="release" pubdate="20170503074554" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="90">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4885" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/cuda/ivy-8.0-6.0-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3.pom"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="cuda-platform" conf="compile, runtime" rev="8.0-6.0-1.3" rev-constraint-default="8.0-6.0-1.3" rev-constraint-dynamic="8.0-6.0-1.3" callerrev="8.0-6.0-1.3"/>
+				<caller organisation="org.nd4j" name="nd4j-cuda-8.0" conf="compile, runtime" rev="8.0-6.0-1.3" rev-constraint-default="8.0-6.0-1.3" rev-constraint-dynamic="8.0-6.0-1.3" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="cuda" type="jar" ext="jar" extra-classifier="macosx-x86_64" status="no" details="" size="3247124" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/cuda/jars/cuda-8.0-6.0-1.3-macosx-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-macosx-x86_64.jar"/>
+					</artifact>
+					<artifact name="cuda" type="jar" ext="jar" extra-classifier="linux-x86_64" status="no" details="" size="3076255" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/cuda/jars/cuda-8.0-6.0-1.3-linux-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-linux-x86_64.jar"/>
+					</artifact>
+					<artifact name="cuda" type="jar" ext="jar" extra-classifier="" status="no" details="" size="331180" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/cuda/jars/cuda-8.0-6.0-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3.jar"/>
+					</artifact>
+					<artifact name="cuda" type="jar" ext="jar" extra-classifier="windows-x86_64" status="no" details="" size="2893522" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/cuda/jars/cuda-8.0-6.0-1.3-windows-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-windows-x86_64.jar"/>
+					</artifact>
+					<artifact name="cuda" type="jar" ext="jar" status="no" details="" size="331180" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/cuda/jars/cuda-8.0-6.0-1.3.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+					<artifact name="cuda" type="jar" ext="jar" extra-classifier="linux-ppc64le" status="no" details="" size="2830432" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/cuda/jars/cuda-8.0-6.0-1.3-linux-ppc64le.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-linux-ppc64le.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.deeplearning4j" name="deeplearning4j-core">
+			<revision name="0.9.1" status="release" pubdate="20170812213927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12584" time="0" location="/home/dubt/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/deeplearning4j/deeplearning4j-core/0.9.1/deeplearning4j-core-0.9.1.pom"/>
+				<caller organisation="jvm" name="jvm_2.12" conf="compile-internal, compile, provided, optional" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="deeplearning4j-core" type="jar" ext="jar" status="no" details="" size="140522" time="0" location="/home/dubt/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/jars/deeplearning4j-core-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/deeplearning4j/deeplearning4j-core/0.9.1/deeplearning4j-core-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106221535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="87">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10608" time="0" location="/home/dubt/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="284184" time="0" location="/home/dubt/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.deeplearning4j" name="deeplearning4j-ui-components">
+			<revision name="0.9.1" status="release" pubdate="20170812213929" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="86">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10954" time="0" location="/home/dubt/.ivy2/cache/org.deeplearning4j/deeplearning4j-ui-components/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/deeplearning4j/deeplearning4j-ui-components/0.9.1/deeplearning4j-ui-components-0.9.1.pom"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="deeplearning4j-ui-components" type="jar" ext="jar" status="no" details="" size="93262" time="0" location="/home/dubt/.ivy2/cache/org.deeplearning4j/deeplearning4j-ui-components/jars/deeplearning4j-ui-components-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/deeplearning4j/deeplearning4j-ui-components/0.9.1/deeplearning4j-ui-components-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.datavec" name="datavec-data-image">
+			<revision name="0.9.1" status="release" pubdate="20170812212633" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9552" time="0" location="/home/dubt/.ivy2/cache/org.datavec/datavec-data-image/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/datavec/datavec-data-image/0.9.1/datavec-data-image-0.9.1.pom"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="datavec-data-image" type="jar" ext="jar" status="no" details="" size="93209" time="0" location="/home/dubt/.ivy2/cache/org.datavec/datavec-data-image/jars/datavec-data-image-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/datavec/datavec-data-image/0.9.1/datavec-data-image-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="leptonica-platform">
+			<revision name="1.73-1.3" status="release" pubdate="20161207221742" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="84">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="5627" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica-platform/ivy-1.73-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica-platform/1.73-1.3/leptonica-platform-1.73-1.3.pom"/>
+				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="1.73-1.3" rev-constraint-default="1.73-1.3" rev-constraint-dynamic="1.73-1.3" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="leptonica-platform" type="jar" ext="jar" status="no" details="" size="2249" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica-platform/jars/leptonica-platform-1.73-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica-platform/1.73-1.3/leptonica-platform-1.73-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="leptonica">
+			<revision name="1.73-1.3" status="release" pubdate="20161207202754" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="85">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4935" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica/ivy-1.73-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3.pom"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="leptonica-platform" conf="compile, runtime" rev="1.73-1.3" rev-constraint-default="1.73-1.3" rev-constraint-dynamic="1.73-1.3" callerrev="1.73-1.3"/>
+				<artifacts>
+					<artifact name="leptonica" type="jar" ext="jar" extra-classifier="linux-ppc64le" status="no" details="" size="2332147" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica/jars/leptonica-1.73-1.3-linux-ppc64le.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-ppc64le.jar"/>
+					</artifact>
+					<artifact name="leptonica" type="jar" ext="jar" extra-classifier="android-x86" status="no" details="" size="2383317" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica/jars/leptonica-1.73-1.3-android-x86.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-android-x86.jar"/>
+					</artifact>
+					<artifact name="leptonica" type="jar" ext="jar" extra-classifier="linux-x86" status="no" details="" size="2116440" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica/jars/leptonica-1.73-1.3-linux-x86.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-x86.jar"/>
+					</artifact>
+					<artifact name="leptonica" type="jar" ext="jar" extra-classifier="macosx-x86_64" status="no" details="" size="2444935" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica/jars/leptonica-1.73-1.3-macosx-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-macosx-x86_64.jar"/>
+					</artifact>
+					<artifact name="leptonica" type="jar" ext="jar" extra-classifier="windows-x86" status="no" details="" size="2806059" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica/jars/leptonica-1.73-1.3-windows-x86.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-windows-x86.jar"/>
+					</artifact>
+					<artifact name="leptonica" type="jar" ext="jar" extra-classifier="linux-x86_64" status="no" details="" size="2372522" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica/jars/leptonica-1.73-1.3-linux-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-x86_64.jar"/>
+					</artifact>
+					<artifact name="leptonica" type="jar" ext="jar" extra-classifier="android-arm" status="no" details="" size="1969409" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica/jars/leptonica-1.73-1.3-android-arm.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-android-arm.jar"/>
+					</artifact>
+					<artifact name="leptonica" type="jar" ext="jar" extra-classifier="linux-armhf" status="no" details="" size="1970674" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica/jars/leptonica-1.73-1.3-linux-armhf.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-armhf.jar"/>
+					</artifact>
+					<artifact name="leptonica" type="jar" ext="jar" status="no" details="" size="144033" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica/jars/leptonica-1.73-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3.jar"/>
+					</artifact>
+					<artifact name="leptonica" type="jar" ext="jar" extra-classifier="windows-x86_64" status="no" details="" size="2696071" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/leptonica/jars/leptonica-1.73-1.3-windows-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-windows-x86_64.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="opencv-platform">
+			<revision name="3.2.0-1.3" status="release" pubdate="20170309212917" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="83">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="5587" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv-platform/ivy-3.2.0-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv-platform/3.2.0-1.3/opencv-platform-3.2.0-1.3.pom"/>
+				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="3.2.0-1.3" rev-constraint-default="3.2.0-1.3" rev-constraint-dynamic="3.2.0-1.3" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="opencv-platform" type="jar" ext="jar" status="no" details="" size="2229" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv-platform/jars/opencv-platform-3.2.0-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv-platform/3.2.0-1.3/opencv-platform-3.2.0-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco" name="javacv">
+			<revision name="1.3.3" status="release" pubdate="20170725162908" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://bytedeco.org/javacv/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="5590" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco/javacv/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacv/1.3.3/javacv-1.3.3.pom"/>
+				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="javacv" type="jar" ext="jar" status="no" details="" size="386571" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco/javacv/jars/javacv-1.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacv/1.3.3/javacv-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="flandmark">
+			<revision name="1.07-1.3" status="release" pubdate="20161207202554" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="82">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="5092" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/flandmark/ivy-1.07-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/flandmark/1.07-1.3/flandmark-1.07-1.3.pom"/>
+				<caller organisation="org.bytedeco" name="javacv" conf="compile, runtime" rev="1.07-1.3" rev-constraint-default="1.07-1.3" rev-constraint-dynamic="1.07-1.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="flandmark" type="jar" ext="jar" status="no" details="" size="11774" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/flandmark/jars/flandmark-1.07-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/flandmark/1.07-1.3/flandmark-1.07-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="artoolkitplus">
+			<revision name="2.3.1-1.3" status="release" pubdate="20161207202228" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="81">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4944" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/artoolkitplus/ivy-2.3.1-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.3/artoolkitplus-2.3.1-1.3.pom"/>
+				<caller organisation="org.bytedeco" name="javacv" conf="compile, runtime" rev="2.3.1-1.3" rev-constraint-default="2.3.1-1.3" rev-constraint-dynamic="2.3.1-1.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="artoolkitplus" type="jar" ext="jar" status="no" details="" size="24094" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/artoolkitplus/jars/artoolkitplus-2.3.1-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.3/artoolkitplus-2.3.1-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="videoinput">
+			<revision name="0.200-1.3" status="release" pubdate="20161207202048" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="80">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4816" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/videoinput/ivy-0.200-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/videoinput/0.200-1.3/videoinput-0.200-1.3.pom"/>
+				<caller organisation="org.bytedeco" name="javacv" conf="compile, runtime" rev="0.200-1.3" rev-constraint-default="0.200-1.3" rev-constraint-dynamic="0.200-1.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="videoinput" type="jar" ext="jar" status="no" details="" size="15518" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/videoinput/jars/videoinput-0.200-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/videoinput/0.200-1.3/videoinput-0.200-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="librealsense">
+			<revision name="1.9.6-1.3" status="release" pubdate="20161207204356" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4942" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/librealsense/ivy-1.9.6-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/librealsense/1.9.6-1.3/librealsense-1.9.6-1.3.pom"/>
+				<caller organisation="org.bytedeco" name="javacv" conf="compile, runtime" rev="1.9.6-1.3" rev-constraint-default="1.9.6-1.3" rev-constraint-dynamic="1.9.6-1.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="librealsense" type="jar" ext="jar" status="no" details="" size="45356" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/librealsense/jars/librealsense-1.9.6-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/librealsense/1.9.6-1.3/librealsense-1.9.6-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="libfreenect2">
+			<revision name="0.2.0-1.3" status="release" pubdate="20170114112105" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="78">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4942" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/libfreenect2/ivy-0.2.0-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/libfreenect2/0.2.0-1.3/libfreenect2-0.2.0-1.3.pom"/>
+				<caller organisation="org.bytedeco" name="javacv" conf="compile, runtime" rev="0.2.0-1.3" rev-constraint-default="0.2.0-1.3" rev-constraint-dynamic="0.2.0-1.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="libfreenect2" type="jar" ext="jar" status="no" details="" size="24026" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/libfreenect2/jars/libfreenect2-0.2.0-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/libfreenect2/0.2.0-1.3/libfreenect2-0.2.0-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="libfreenect">
+			<revision name="0.5.3-1.3" status="release" pubdate="20161207202845" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="77">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4940" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/libfreenect/ivy-0.5.3-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.3/libfreenect-0.5.3-1.3.pom"/>
+				<caller organisation="org.bytedeco" name="javacv" conf="compile, runtime" rev="0.5.3-1.3" rev-constraint-default="0.5.3-1.3" rev-constraint-dynamic="0.5.3-1.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="libfreenect" type="jar" ext="jar" status="no" details="" size="21946" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/libfreenect/jars/libfreenect-0.5.3-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.3/libfreenect-0.5.3-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="libdc1394">
+			<revision name="2.2.4-1.3" status="release" pubdate="20161207202257" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4936" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/libdc1394/ivy-2.2.4-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/libdc1394/2.2.4-1.3/libdc1394-2.2.4-1.3.pom"/>
+				<caller organisation="org.bytedeco" name="javacv" conf="compile, runtime" rev="2.2.4-1.3" rev-constraint-default="2.2.4-1.3" rev-constraint-dynamic="2.2.4-1.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="libdc1394" type="jar" ext="jar" status="no" details="" size="30724" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/libdc1394/jars/libdc1394-2.2.4-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/libdc1394/2.2.4-1.3/libdc1394-2.2.4-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="flycapture">
+			<revision name="2.9.3.43-1.3" status="release" pubdate="20161207202504" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4820" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/flycapture/ivy-2.9.3.43-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/flycapture/2.9.3.43-1.3/flycapture-2.9.3.43-1.3.pom"/>
+				<caller organisation="org.bytedeco" name="javacv" conf="compile, runtime" rev="2.9.3.43-1.3" rev-constraint-default="2.9.3.43-1.3" rev-constraint-dynamic="2.9.3.43-1.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="flycapture" type="jar" ext="jar" status="no" details="" size="142827" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/flycapture/jars/flycapture-2.9.3.43-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/flycapture/2.9.3.43-1.3/flycapture-2.9.3.43-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="ffmpeg">
+			<revision name="3.2.1-1.3" status="release" pubdate="20161207202945" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4810" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/ffmpeg/ivy-3.2.1-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/ffmpeg/3.2.1-1.3/ffmpeg-3.2.1-1.3.pom"/>
+				<caller organisation="org.bytedeco" name="javacv" conf="compile, runtime" rev="3.2.1-1.3" rev-constraint-default="3.2.1-1.3" rev-constraint-dynamic="3.2.1-1.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="ffmpeg" type="jar" ext="jar" status="no" details="" size="236905" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/ffmpeg/jars/ffmpeg-3.2.1-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/ffmpeg/3.2.1-1.3/ffmpeg-3.2.1-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="opencv">
+			<revision name="3.2.0-1.3" status="release" pubdate="20170309212644" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4930" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/ivy-3.2.0-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3.pom"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="opencv-platform" conf="compile, runtime" rev="3.2.0-1.3" rev-constraint-default="3.2.0-1.3" rev-constraint-dynamic="3.2.0-1.3" callerrev="3.2.0-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="flandmark" conf="compile, runtime" rev="3.1.0-1.3" rev-constraint-default="3.1.0-1.3" rev-constraint-dynamic="3.1.0-1.3" callerrev="1.07-1.3"/>
+				<caller organisation="org.bytedeco" name="javacv" conf="compile, runtime" rev="3.2.0-1.3" rev-constraint-default="3.2.0-1.3" rev-constraint-dynamic="3.2.0-1.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="opencv" type="jar" ext="jar" extra-classifier="linux-armhf" status="no" details="" size="10649999" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.2.0-1.3-linux-armhf.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-armhf.jar"/>
+					</artifact>
+					<artifact name="opencv" type="jar" ext="jar" extra-classifier="linux-x86_64" status="no" details="" size="10737947" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.2.0-1.3-linux-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-x86_64.jar"/>
+					</artifact>
+					<artifact name="opencv" type="jar" ext="jar" extra-classifier="macosx-x86_64" status="no" details="" size="11176800" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.2.0-1.3-macosx-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-macosx-x86_64.jar"/>
+					</artifact>
+					<artifact name="opencv" type="jar" ext="jar" extra-classifier="windows-x86_64" status="no" details="" size="13031603" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.2.0-1.3-windows-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-windows-x86_64.jar"/>
+					</artifact>
+					<artifact name="opencv" type="jar" ext="jar" status="no" details="" size="748303" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.2.0-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3.jar"/>
+					</artifact>
+					<artifact name="opencv" type="jar" ext="jar" extra-classifier="linux-x86" status="no" details="" size="10560203" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.2.0-1.3-linux-x86.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-x86.jar"/>
+					</artifact>
+					<artifact name="opencv" type="jar" ext="jar" extra-classifier="android-arm" status="no" details="" size="12093409" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.2.0-1.3-android-arm.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-android-arm.jar"/>
+					</artifact>
+					<artifact name="opencv" type="jar" ext="jar" extra-classifier="linux-ppc64le" status="no" details="" size="12824720" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.2.0-1.3-linux-ppc64le.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-ppc64le.jar"/>
+					</artifact>
+					<artifact name="opencv" type="jar" ext="jar" extra-classifier="android-x86" status="no" details="" size="15727873" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.2.0-1.3-android-x86.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-android-x86.jar"/>
+					</artifact>
+					<artifact name="opencv" type="jar" ext="jar" extra-classifier="windows-x86" status="no" details="" size="10870413" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.2.0-1.3-windows-x86.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-windows-x86.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.1.0-1.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="3.2.0-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="flandmark" conf="compile, runtime" rev="3.1.0-1.3" rev-constraint-default="3.1.0-1.3" rev-constraint-dynamic="3.1.0-1.3" callerrev="1.07-1.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-bmp">
+			<revision name="3.1.1" status="release" pubdate="20150611180413" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<metadata-artifact status="no" details="" size="6088" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.imageio/imageio-bmp/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-bmp/3.1.1/imageio-bmp-3.1.1.pom"/>
+				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="imageio-bmp" type="jar" ext="jar" status="no" details="" size="52758" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.imageio/imageio-bmp/jars/imageio-bmp-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-bmp/3.1.1/imageio-bmp-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-psd">
+			<revision name="3.1.1" status="release" pubdate="20150611181023" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<metadata-artifact status="no" details="" size="6226" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.imageio/imageio-psd/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.1.1/imageio-psd-3.1.1.pom"/>
+				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="imageio-psd" type="jar" ext="jar" status="no" details="" size="67903" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.imageio/imageio-psd/jars/imageio-psd-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.1.1/imageio-psd-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-tiff">
+			<revision name="3.1.1" status="release" pubdate="20150611181251" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<metadata-artifact status="no" details="" size="6241" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.imageio/imageio-tiff/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tiff/3.1.1/imageio-tiff-3.1.1.pom"/>
+				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="imageio-tiff" type="jar" ext="jar" status="no" details="" size="61963" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.imageio/imageio-tiff/jars/imageio-tiff-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tiff/3.1.1/imageio-tiff-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-jpeg">
+			<revision name="3.1.1" status="release" pubdate="20150611180641" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<metadata-artifact status="no" details="" size="6248" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.imageio/imageio-jpeg/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.1.1/imageio-jpeg-3.1.1.pom"/>
+				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="imageio-jpeg" type="jar" ext="jar" status="no" details="" size="58805" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.imageio/imageio-jpeg/jars/imageio-jpeg-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.1.1/imageio-jpeg-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-metadata">
+			<revision name="3.1.1" status="release" pubdate="20150611180158" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<metadata-artifact status="no" details="" size="6050" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.imageio/imageio-metadata/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.1.1/imageio-metadata-3.1.1.pom"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-psd" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-tiff" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="imageio-metadata" type="jar" ext="jar" status="no" details="" size="67552" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.imageio/imageio-metadata/jars/imageio-metadata-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.1.1/imageio-metadata-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.common" name="common-image">
+			<revision name="3.1.1" status="release" pubdate="20150611180041" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<metadata-artifact status="no" details="" size="4520" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.common/common-image/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.1.1/common-image-3.1.1.pom"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-bmp" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-metadata" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-psd" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-tiff" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="common-image" type="jar" ext="jar" status="no" details="" size="82517" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.common/common-image/jars/common-image-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.1.1/common-image-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.common" name="common-io">
+			<revision name="3.1.1" status="release" pubdate="20150611180019" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<metadata-artifact status="no" details="" size="4392" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.common/common-io/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.1.1/common-io-3.1.1.pom"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-bmp" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-metadata" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-psd" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.common" name="common-image" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-tiff" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="common-io" type="jar" ext="jar" status="no" details="" size="88580" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.common/common-io/jars/common-io-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.1.1/common-io-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.common" name="common-lang">
+			<revision name="3.1.1" status="release" pubdate="20150611175957" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<metadata-artifact status="no" details="" size="4101" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.common/common-lang/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-lang/3.1.1/common-lang-3.1.1.pom"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-bmp" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-metadata" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-psd" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-tiff" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="common-lang" type="jar" ext="jar" status="no" details="" size="117270" time="0" location="/home/dubt/.ivy2/cache/com.twelvemonkeys.common/common-lang/jars/common-lang-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-lang/3.1.1/common-lang-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jai-imageio" name="jai-imageio-core">
+			<revision name="1.3.0" status="release" pubdate="20150305212314" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jai-imageio/jai-imageio-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="BSD 3-clause License" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3661" time="0" location="/home/dubt/.ivy2/cache/com.github.jai-imageio/jai-imageio-core/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0.pom"/>
+				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="jai-imageio-core" type="jar" ext="jar" status="no" details="" size="601101" time="0" location="/home/dubt/.ivy2/cache/com.github.jai-imageio/jai-imageio-core/jars/jai-imageio-core-1.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.datavec" name="datavec-api">
+			<revision name="0.9.1" status="release" pubdate="20170812212638" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8983" time="0" location="/home/dubt/.ivy2/cache/org.datavec/datavec-api/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/datavec/datavec-api/0.9.1/datavec-api-0.9.1.pom"/>
+				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="datavec-api" type="jar" ext="jar" status="no" details="" size="756616" time="0" location="/home/dubt/.ivy2/cache/org.datavec/datavec-api/jars/datavec-api-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/datavec/datavec-api/0.9.1/datavec-api-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.opencsv" name="opencsv">
+			<revision name="2.3" status="release" pubdate="20110728130018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3354" time="0" location="/home/dubt/.ivy2/cache/net.sf.opencsv/opencsv/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="opencsv" type="jar" ext="jar" status="no" details="" size="19827" time="0" location="/home/dubt/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.clearspring.analytics" name="stream">
+			<revision name="2.7.0" status="release" pubdate="20140523214148" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/addthis/stream-lib" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4347" time="0" location="/home/dubt/.ivy2/cache/com.clearspring.analytics/stream/ivy-2.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.pom"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="stream" type="jar" ext="jar" status="no" details="" size="174351" time="0" location="/home/dubt/.ivy2/cache/com.clearspring.analytics/stream/jars/stream-2.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="it.unimi.dsi" name="fastutil">
+			<revision name="6.5.7" status="release" pubdate="20130803154102" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://fasutil.di.unimi.it/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2746" time="0" location="/home/dubt/.ivy2/cache/it.unimi.dsi/fastutil/ivy-6.5.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/it/unimi/dsi/fastutil/6.5.7/fastutil-6.5.7.pom"/>
+				<caller organisation="com.clearspring.analytics" name="stream" conf="compile, runtime" rev="6.5.7" rev-constraint-default="6.5.7" rev-constraint-dynamic="6.5.7" callerrev="2.7.0"/>
+				<artifacts>
+					<artifact name="fastutil" type="jar" ext="jar" status="no" details="" size="16903573" time="0" location="/home/dubt/.ivy2/cache/it.unimi.dsi/fastutil/jars/fastutil-6.5.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/it/unimi/dsi/fastutil/6.5.7/fastutil-6.5.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.freemarker" name="freemarker">
+			<revision name="2.3.23" status="release" pubdate="20150705222822" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://freemarker.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="Apache License, Version 2.0" url="http://freemarker.org/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2948" time="0" location="/home/dubt/.ivy2/cache/org.freemarker/freemarker/ivy-2.3.23.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.pom"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="2.3.23" rev-constraint-default="2.3.23" rev-constraint-dynamic="2.3.23" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-ui-components" conf="compile, runtime" rev="2.3.23" rev-constraint-default="2.3.23" rev-constraint-dynamic="2.3.23" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="freemarker" type="jar" ext="jar" status="no" details="" size="1350624" time="0" location="/home/dubt/.ivy2/cache/org.freemarker/freemarker/jars/freemarker-2.3.23.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.2" status="release" pubdate="20160128214408" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6595" time="0" location="/home/dubt/.ivy2/cache/joda-time/joda-time/ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.2/joda-time-2.9.2.pom"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="jackson" conf="compile, runtime" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="625596" time="0" location="/home/dubt/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.2/joda-time-2.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.2" status="release" pubdate="20130308222346" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://joda-time.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3547" time="0" location="/home/dubt/.ivy2/cache/joda-time/joda-time/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.2/joda-time-2.2.pom"/>
+				<evicted-by rev="2.9.2"/>
+				<caller organisation="org.nd4j" name="jackson" conf="compile, runtime" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="20.0" status="release" pubdate="20161029045635" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6358" time="0" location="/home/dubt/.ivy2/cache/com.google.guava/guava/ivy-20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.pom"/>
+				<caller organisation="org.reflections" name="reflections" conf="compile, runtime" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="0.9.10"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="20.0" rev-constraint-default="20.0" rev-constraint-dynamic="20.0" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="guava" type="bundle" ext="jar" status="no" details="" size="2442625" time="0" location="/home/dubt/.ivy2/cache/com.google.guava/guava/bundles/guava-20.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="18.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="20.0"/>
+				<caller organisation="org.reflections" name="reflections" conf="compile, runtime" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="0.9.10"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="20.0" rev-constraint-default="20.0" rev-constraint-dynamic="20.0" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.deeplearning4j" name="deeplearning4j-modelimport">
+			<revision name="0.9.1" status="release" pubdate="20170812213927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10597" time="0" location="/home/dubt/.ivy2/cache/org.deeplearning4j/deeplearning4j-modelimport/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/deeplearning4j/deeplearning4j-modelimport/0.9.1/deeplearning4j-modelimport-0.9.1.pom"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="deeplearning4j-modelimport" type="jar" ext="jar" status="no" details="" size="92868" time="0" location="/home/dubt/.ivy2/cache/org.deeplearning4j/deeplearning4j-modelimport/jars/deeplearning4j-modelimport-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/deeplearning4j/deeplearning4j-modelimport/0.9.1/deeplearning4j-modelimport-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="hdf5-platform">
+			<revision name="1.10.0-patch1-1.3" status="release" pubdate="20161207222727" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="5281" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/hdf5-platform/ivy-1.10.0-patch1-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/hdf5-platform/1.10.0-patch1-1.3/hdf5-platform-1.10.0-patch1-1.3.pom"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-modelimport" conf="compile, runtime" rev="1.10.0-patch1-1.3" rev-constraint-default="1.10.0-patch1-1.3" rev-constraint-dynamic="1.10.0-patch1-1.3" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="hdf5-platform" type="jar" ext="jar" status="no" details="" size="2202" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/hdf5-platform/jars/hdf5-platform-1.10.0-patch1-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/hdf5-platform/1.10.0-patch1-1.3/hdf5-platform-1.10.0-patch1-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="hdf5">
+			<revision name="1.10.0-patch1-1.3" status="release" pubdate="20161207202712" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4934" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/hdf5/ivy-1.10.0-patch1-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3.pom"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="hdf5-platform" conf="compile, runtime" rev="1.10.0-patch1-1.3" rev-constraint-default="1.10.0-patch1-1.3" rev-constraint-dynamic="1.10.0-patch1-1.3" callerrev="1.10.0-patch1-1.3"/>
+				<artifacts>
+					<artifact name="hdf5" type="jar" ext="jar" extra-classifier="linux-x86_64" status="no" details="" size="1998470" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/hdf5/jars/hdf5-1.10.0-patch1-1.3-linux-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-x86_64.jar"/>
+					</artifact>
+					<artifact name="hdf5" type="jar" ext="jar" extra-classifier="windows-x86" status="no" details="" size="1931902" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/hdf5/jars/hdf5-1.10.0-patch1-1.3-windows-x86.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-windows-x86.jar"/>
+					</artifact>
+					<artifact name="hdf5" type="jar" ext="jar" extra-classifier="macosx-x86_64" status="no" details="" size="1832967" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/hdf5/jars/hdf5-1.10.0-patch1-1.3-macosx-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-macosx-x86_64.jar"/>
+					</artifact>
+					<artifact name="hdf5" type="jar" ext="jar" status="no" details="" size="166414" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/hdf5/jars/hdf5-1.10.0-patch1-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3.jar"/>
+					</artifact>
+					<artifact name="hdf5" type="jar" ext="jar" extra-classifier="linux-x86" status="no" details="" size="1832325" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/hdf5/jars/hdf5-1.10.0-patch1-1.3-linux-x86.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-x86.jar"/>
+					</artifact>
+					<artifact name="hdf5" type="jar" ext="jar" extra-classifier="windows-x86_64" status="no" details="" size="2126834" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/hdf5/jars/hdf5-1.10.0-patch1-1.3-windows-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-windows-x86_64.jar"/>
+					</artifact>
+					<artifact name="hdf5" type="jar" ext="jar" extra-classifier="linux-ppc64le" status="no" details="" size="1905456" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco.javacpp-presets/hdf5/jars/hdf5-1.10.0-patch1-1.3-linux-ppc64le.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-ppc64le.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.deeplearning4j" name="deeplearning4j-nn">
+			<revision name="0.9.1" status="release" pubdate="20170812213929" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10249" time="0" location="/home/dubt/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/deeplearning4j/deeplearning4j-nn/0.9.1/deeplearning4j-nn-0.9.1.pom"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-modelimport" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="deeplearning4j-nn" type="jar" ext="jar" status="no" details="" size="1113180" time="0" location="/home/dubt/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/jars/deeplearning4j-nn-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/deeplearning4j/deeplearning4j-nn/0.9.1/deeplearning4j-nn-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.8" status="release" pubdate="20140309145202" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10407" time="0" location="/home/dubt/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8/commons-compress-1.8.pom"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-nn" conf="compile, runtime" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="364620" time="0" location="/home/dubt/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8/commons-compress-1.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.8.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.8"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.5" status="release" pubdate="20140308193924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2403" time="0" location="/home/dubt/.ivy2/cache/org.tukaani/xz/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5.pom"/>
+				<caller organisation="org.apache.commons" name="commons-compress" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.8"/>
+				<artifacts>
+					<artifact name="xz" type="jar" ext="jar" status="no" details="" size="99555" time="0" location="/home/dubt/.ivy2/cache/org.tukaani/xz/jars/xz-1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-jackson">
+			<revision name="0.9.1" status="release" pubdate="20170812224504" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8550" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-jackson/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nd4j/nd4j-jackson/0.9.1/nd4j-jackson-0.9.1.pom"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-nn" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="nd4j-jackson" type="jar" ext="jar" status="no" details="" size="10095" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-jackson/jars/nd4j-jackson-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-jackson/0.9.1/nd4j-jackson-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-base64">
+			<revision name="0.9.1" status="release" pubdate="20170812224524" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8246" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-base64/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nd4j/nd4j-base64/0.9.1/nd4j-base64-0.9.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-jackson" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="nd4j-base64" type="jar" ext="jar" status="no" details="" size="4230" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-base64/jars/nd4j-base64-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-base64/0.9.1/nd4j-base64-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-net" name="commons-net">
+			<revision name="3.1" status="release" pubdate="20120215024231" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8062" time="0" location="/home/dubt/.ivy2/cache/commons-net/commons-net/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-base64" conf="compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="commons-net" type="jar" ext="jar" status="no" details="" size="273370" time="0" location="/home/dubt/.ivy2/cache/commons-net/commons-net/jars/commons-net-3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.deeplearning4j" name="nearestneighbor-core">
+			<revision name="0.9.1" status="release" pubdate="20170812213925" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maven.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10476" time="0" location="/home/dubt/.ivy2/cache/org.deeplearning4j/nearestneighbor-core/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/deeplearning4j/nearestneighbor-core/0.9.1/nearestneighbor-core-0.9.1.pom"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="nearestneighbor-core" type="jar" ext="jar" status="no" details="" size="112311" time="0" location="/home/dubt/.ivy2/cache/org.deeplearning4j/nearestneighbor-core/jars/nearestneighbor-core-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/deeplearning4j/nearestneighbor-core/0.9.1/nearestneighbor-core-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-api">
+			<revision name="0.9.1" status="release" pubdate="20170812224509" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nd4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11281" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-api/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nd4j/nd4j-api/0.9.1/nd4j-api-0.9.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-cuda-8.0" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-base64" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-modelimport" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-native-api" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-nn" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="nearestneighbor-core" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="nd4j-api" type="jar" ext="jar" status="no" details="" size="1130395" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-api/jars/nd4j-api-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-api/0.9.1/nd4j-api-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.ericaro" name="neoitertools">
+			<revision name="1.0.0" status="release" pubdate="20110507071010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://${googlecode}.googlecode.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2895" time="0" location="/home/dubt/.ivy2/cache/net.ericaro/neoitertools/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/ericaro/neoitertools/1.0.0/neoitertools-1.0.0.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="neoitertools" type="jar" ext="jar" status="no" details="" size="53712" time="0" location="/home/dubt/.ivy2/cache/net.ericaro/neoitertools/jars/neoitertools-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/ericaro/neoitertools/1.0.0/neoitertools-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-buffer">
+			<revision name="0.9.1" status="release" pubdate="20170812224513" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7601" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-buffer/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nd4j/nd4j-buffer/0.9.1/nd4j-buffer-0.9.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-native-api" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="nd4j-buffer" type="jar" ext="jar" status="no" details="" size="78100" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-buffer/jars/nd4j-buffer-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-buffer/0.9.1/nd4j-buffer-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco" name="javacpp">
+			<revision name="1.3.3" status="release" pubdate="20170725162338" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://bytedeco.org/javacpp/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4018" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco/javacpp/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp/1.3.3/javacpp-1.3.3.pom"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="libfreenect" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.5.3-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="cuda" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="8.0-6.0-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="flandmark" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.07-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="artoolkitplus" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.3.1-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="libfreenect2" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.2.0-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="videoinput" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.200-1.3"/>
+				<caller organisation="org.nd4j" name="nd4j-cuda-8.0" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.9.1"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="librealsense" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.9.6-1.3"/>
+				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-buffer" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.9.1"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="leptonica" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.73-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="libdc1394" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.2.4-1.3"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-modelimport" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.9.1"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="opencv" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.2.0-1.3"/>
+				<caller organisation="org.nd4j" name="nd4j-native-api" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.9.1"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="hdf5" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.10.0-patch1-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="ffmpeg" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.2.1-1.3"/>
+				<caller organisation="org.bytedeco" name="javacv" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="flycapture" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.9.3.43-1.3"/>
+				<artifacts>
+					<artifact name="javacpp" type="jar" ext="jar" status="no" details="" size="329904" time="0" location="/home/dubt/.ivy2/cache/org.bytedeco/javacpp/jars/javacpp-1.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp/1.3.3/javacpp-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.3.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="libfreenect" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.5.3-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="cuda" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="8.0-6.0-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="flandmark" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.07-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="artoolkitplus" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.3.1-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="libfreenect2" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.2.0-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="videoinput" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.200-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="librealsense" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.9.6-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="leptonica" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.73-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="libdc1394" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.2.4-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="opencv" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.2.0-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="hdf5" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.10.0-patch1-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="ffmpeg" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.2.1-1.3"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="flycapture" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.9.3.43-1.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-context">
+			<revision name="0.9.1" status="release" pubdate="20170812224435" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7320" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-context/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nd4j/nd4j-context/0.9.1/nd4j-context-0.9.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-buffer" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="nd4j-context" type="jar" ext="jar" status="no" details="" size="9504" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-context/jars/nd4j-context-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-context/0.9.1/nd4j-context-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="nd4j-common">
+			<revision name="0.9.1" status="release" pubdate="20170812224528" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8854" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-common/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nd4j/nd4j-common/0.9.1/nd4j-common-0.9.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-context" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-nn" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="nd4j-common" type="jar" ext="jar" status="no" details="" size="155852" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/nd4j-common/jars/nd4j-common-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/nd4j-common/0.9.1/nd4j-common-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.4.1" status="release" pubdate="20150109012810" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11263" time="0" location="/home/dubt/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="0.9.1"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="3.3" rev-constraint-default="3.3" rev-constraint-dynamic="3.3" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="commons-math3" type="jar" ext="jar" status="no" details="" size="2035066" time="0" location="/home/dubt/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="3.4.1"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="3.3" rev-constraint-default="3.3" rev-constraint-dynamic="3.3" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.stephenc.findbugs" name="findbugs-annotations">
+			<revision name="1.3.9-1" status="release" pubdate="20110420192134" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://stephenc.github.com/findbugs-annotations" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3621" time="0" location="/home/dubt/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/ivy-1.3.9-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="1.3.9-1" rev-constraint-default="1.3.9-1" rev-constraint-dynamic="1.3.9-1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="findbugs-annotations" type="jar" ext="jar" status="no" details="" size="15322" time="0" location="/home/dubt/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/jars/findbugs-annotations-1.3.9-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.8.2" status="release" pubdate="20101005165127" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2546" time="0" location="/home/dubt/.ivy2/cache/junit/junit/ivy-4.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom"/>
+				<caller organisation="net.ericaro" name="neoitertools" conf="compile, runtime" rev="4.8.2" rev-constraint-default="4.8.2" rev-constraint-dynamic="4.8.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="237344" time="0" location="/home/dubt/.ivy2/cache/junit/junit/jars/junit-4.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reflections" name="reflections">
+			<revision name="0.9.10" status="release" pubdate="20150516174630" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ronmamo/reflections" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="WTFPL" url="http://www.wtfpl.net/"/>
+				<license name="The New BSD License" url="http://www.opensource.org/licenses/bsd-license.html"/>
+				<metadata-artifact status="no" details="" size="4248" time="0" location="/home/dubt/.ivy2/cache/org.reflections/reflections/ivy-0.9.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reflections/reflections/0.9.10/reflections-0.9.10.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="0.9.10" rev-constraint-default="0.9.10" rev-constraint-dynamic="0.9.10" callerrev="0.9.1"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="0.9.10" rev-constraint-default="0.9.10" rev-constraint-dynamic="0.9.10" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="0.9.10" rev-constraint-default="0.9.10" rev-constraint-dynamic="0.9.10" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="reflections" type="jar" ext="jar" status="no" details="" size="129763" time="0" location="/home/dubt/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reflections/reflections/0.9.10/reflections-0.9.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="annotations">
+			<revision name="2.0.1" status="release" pubdate="20120730061801" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="GNU Lesser Public License" url="http://www.gnu.org/licenses/lgpl.html"/>
+				<metadata-artifact status="no" details="" size="2511" time="0" location="/home/dubt/.ivy2/cache/com.google.code.findbugs/annotations/ivy-2.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.pom"/>
+				<caller organisation="org.reflections" name="reflections" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="0.9.10"/>
+				<artifacts>
+					<artifact name="annotations" type="jar" ext="jar" status="no" details="" size="74557" time="0" location="/home/dubt/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.javassist" name="javassist">
+			<revision name="3.18.2-GA" status="release" pubdate="20140528005509" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3199" time="0" location="/home/dubt/.ivy2/cache/org.javassist/javassist/ivy-3.18.2-GA.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.pom"/>
+				<caller organisation="org.reflections" name="reflections" conf="compile, runtime" rev="3.18.2-GA" rev-constraint-default="3.18.2-GA" rev-constraint-dynamic="3.18.2-GA" callerrev="0.9.10"/>
+				<artifacts>
+					<artifact name="javassist" type="bundle" ext="jar" status="no" details="" size="714524" time="0" location="/home/dubt/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.18.2-GA.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.projectlombok" name="lombok">
+			<revision name="1.16.16" status="release" pubdate="20170323082618" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://projectlombok.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="The MIT License" url="https://projectlombok.org/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2571" time="0" location="/home/dubt/.ivy2/cache/org.projectlombok/lombok/ivy-1.16.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/projectlombok/lombok/1.16.16/lombok-1.16.16.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="1.16.16" rev-constraint-default="1.16.16" rev-constraint-dynamic="1.16.16" callerrev="0.9.1"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="1.16.10" rev-constraint-default="1.16.10" rev-constraint-dynamic="1.16.10" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-ui-components" conf="compile, runtime" rev="1.16.16" rev-constraint-default="1.16.16" rev-constraint-dynamic="1.16.16" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="1.16.16" rev-constraint-default="1.16.16" rev-constraint-dynamic="1.16.16" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-buffer" conf="compile, runtime" rev="1.16.16" rev-constraint-default="1.16.16" rev-constraint-dynamic="1.16.16" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-modelimport" conf="compile, runtime" rev="1.16.16" rev-constraint-default="1.16.16" rev-constraint-dynamic="1.16.16" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-nn" conf="compile, runtime" rev="1.16.16" rev-constraint-default="1.16.16" rev-constraint-dynamic="1.16.16" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="1.16.16" rev-constraint-default="1.16.16" rev-constraint-dynamic="1.16.16" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="lombok" type="jar" ext="jar" status="no" details="" size="1439298" time="0" location="/home/dubt/.ivy2/cache/org.projectlombok/lombok/jars/lombok-1.16.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.16.10" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.16.16"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="1.16.10" rev-constraint-default="1.16.10" rev-constraint-dynamic="1.16.10" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nd4j" name="jackson">
+			<revision name="0.9.1" status="release" pubdate="20170812224440" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8481" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/jackson/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nd4j/jackson/0.9.1/jackson-0.9.1.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-jackson" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-ui-components" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-modelimport" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-nn" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="jackson" type="jar" ext="jar" status="no" details="" size="1881936" time="0" location="/home/dubt/.ivy2/cache/org.nd4j/jackson/jars/jackson-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nd4j/jackson/0.9.1/jackson-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.woodstox" name="stax2-api">
+			<revision name="3.1.4" status="release" pubdate="20140228142027" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/WoodstoxStax2" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3477" time="0" location="/home/dubt/.ivy2/cache/org.codehaus.woodstox/stax2-api/ivy-3.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom"/>
+				<caller organisation="org.nd4j" name="jackson" conf="compile, runtime" rev="3.1.4" rev-constraint-default="3.1.4" rev-constraint-dynamic="3.1.4" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="stax2-api" type="bundle" ext="jar" status="no" details="" size="161867" time="0" location="/home/dubt/.ivy2/cache/org.codehaus.woodstox/stax2-api/bundles/stax2-api-3.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.12" status="release" pubdate="20130303064606" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache License Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3558" time="0" location="/home/dubt/.ivy2/cache/org.yaml/snakeyaml/ivy-1.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.12/snakeyaml-1.12.pom"/>
+				<caller organisation="org.nd4j" name="jackson" conf="compile, runtime" rev="1.12" rev-constraint-default="1.12" rev-constraint-dynamic="1.12" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="bundle" ext="jar" status="no" details="" size="270779" time="0" location="/home/dubt/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial" name="sqlite-jdbc">
+			<revision name="3.7.2" status="release" pubdate="20100827172018" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3514" time="0" location="/home/dubt/.ivy2/cache/org.xerial/sqlite-jdbc/ivy-3.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.7.2/sqlite-jdbc-3.7.2.pom"/>
+				<caller organisation="jvm" name="jvm_2.12" conf="compile-internal, compile, provided, optional" rev="3.7.2" rev-constraint-default="3.7.2" rev-constraint-dynamic="3.7.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="sqlite-jdbc" type="jar" ext="jar" status="no" details="" size="3201133" time="0" location="/home/dubt/.ivy2/cache/org.xerial/sqlite-jdbc/jars/sqlite-jdbc-3.7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.7.2/sqlite-jdbc-3.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.slick" name="slick-hikaricp_2.12">
+			<revision name="3.2.1" status="release" pubdate="20170720203801" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.12/3.2.1/slick-hikaricp_2.12-3.2.1.pom"/>
+				<caller organisation="jvm" name="jvm_2.12" conf="compile-internal, compile, provided, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slick-hikaricp_2.12" type="bundle" ext="jar" status="no" details="" size="6947" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/bundles/slick-hikaricp_2.12-3.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.12/3.2.1/slick-hikaricp_2.12-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.zaxxer" name="HikariCP">
+			<revision name="2.5.1" status="release" pubdate="20160919194722" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/brettwooldridge/HikariCP" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7421" time="0" location="/home/dubt/.ivy2/cache/com.zaxxer/HikariCP/ivy-2.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.pom"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="default, compile, runtime, master" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="3.2.1"/>
+				<artifacts>
+					<artifact name="HikariCP" type="bundle" ext="jar" status="no" details="" size="136363" time="0" location="/home/dubt/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.8.0-beta0" status="release" pubdate="20171020205858" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5612" time="0" location="/home/dubt/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.8.0-beta0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.8.0-beta0/slf4j-simple-1.8.0-beta0.pom"/>
+				<caller organisation="jvm" name="jvm_2.12" conf="compile-internal, compile, provided, optional" rev="1.8.0-beta0" rev-constraint-default="1.8.0-beta0" rev-constraint-dynamic="1.8.0-beta0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-simple" type="jar" ext="jar" status="no" details="" size="15112" time="0" location="/home/dubt/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.8.0-beta0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.8.0-beta0/slf4j-simple-1.8.0-beta0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.8.0-beta0" status="release" pubdate="20171020205849" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5344" time="0" location="/home/dubt/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.8.0-beta0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.8.0-beta0/slf4j-api-1.8.0-beta0.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="0.9.1"/>
+				<caller organisation="org.slf4j" name="slf4j-simple" conf="default, compile, runtime, master" rev="1.8.0-beta0" rev-constraint-default="1.8.0-beta0" rev-constraint-dynamic="1.8.0-beta0" callerrev="1.8.0-beta0"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="0.9.1"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.7.18" rev-constraint-default="1.7.18" rev-constraint-dynamic="1.7.18" callerrev="3.2.1"/>
+				<caller organisation="com.zaxxer" name="HikariCP" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="2.5.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-modelimport" conf="compile, runtime" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="43926" time="0" location="/home/dubt/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.8.0-beta0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.8.0-beta0/slf4j-api-1.8.0-beta0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.18" status="release" pubdate="20160227025109" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/home/dubt/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.18.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.18/slf4j-api-1.7.18.pom"/>
+				<evicted-by rev="1.8.0-beta0"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.7.18" rev-constraint-default="1.7.18" rev-constraint-dynamic="1.7.18" callerrev="3.2.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.7" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="-1">
+				<evicted-by rev="1.8.0-beta0"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.12" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.8.0-beta0"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-modelimport" conf="compile, runtime" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.10" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.8.0-beta0"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="0.9.1"/>
+				<caller organisation="org.nd4j" name="nd4j-api" conf="compile, runtime" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.21" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.8.0-beta0"/>
+				<caller organisation="com.zaxxer" name="HikariCP" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="2.5.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.slick" name="slick_2.12">
+			<revision name="3.2.1" status="release" pubdate="20170720203859" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="20">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3130" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.slick/slick_2.12/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.2.1/slick_2.12-3.2.1.pom"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="default, compile, runtime, master" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="3.2.1"/>
+				<caller organisation="jvm" name="jvm_2.12" conf="compile-internal, compile, provided, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slick_2.12" type="bundle" ext="jar" status="no" details="" size="3809669" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.slick/slick_2.12/bundles/slick_2.12-3.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.2.1/slick_2.12-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http_2.12">
+			<revision name="10.0.11" status="release" pubdate="20171201170449" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="2952" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.akka/akka-http_2.12/ivy-10.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.0.11/akka-http_2.12-10.0.11.pom"/>
+				<caller organisation="jvm" name="jvm_2.12" conf="compile-internal, compile, provided, optional" rev="10.0.11" rev-constraint-default="10.0.11" rev-constraint-dynamic="10.0.11" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-http_2.12" type="jar" ext="jar" status="no" details="" size="1703958" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.0.11/akka-http_2.12-10.0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-core_2.12">
+			<revision name="10.0.11" status="release" pubdate="20171201170416" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3729" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/ivy-10.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.0.11/akka-http-core_2.12-10.0.11.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http_2.12" conf="default, compile, runtime, master" rev="10.0.11" rev-constraint-default="10.0.11" rev-constraint-dynamic="10.0.11" callerrev="10.0.11"/>
+				<artifacts>
+					<artifact name="akka-http-core_2.12" type="jar" ext="jar" status="no" details="" size="3356002" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.0.11/akka-http-core_2.12-10.0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.12">
+			<revision name="2.4.20" status="release" pubdate="20170811005428" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.20" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3506" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/ivy-2.4.20.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.4.20/akka-stream_2.12-2.4.20.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core_2.12" conf="compile, runtime" rev="2.4.20" rev-constraint-default="2.4.20" rev-constraint-dynamic="2.4.20" callerrev="10.0.11"/>
+				<artifacts>
+					<artifact name="akka-stream_2.12" type="jar" ext="jar" status="no" details="" size="3561290" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.4.20.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.4.20/akka-stream_2.12-2.4.20.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.12">
+			<revision name="0.2.1" status="release" pubdate="20161102213833" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3613" time="0" location="/home/dubt/.ivy2/cache/com.typesafe/ssl-config-core_2.12/ivy-0.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.1/ssl-config-core_2.12-0.2.1.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.12" conf="compile, runtime" rev="0.2.1" rev-constraint-default="0.2.1" rev-constraint-dynamic="0.2.1" callerrev="2.4.20"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.12" type="bundle" ext="jar" status="no" details="" size="243527" time="0" location="/home/dubt/.ivy2/cache/com.typesafe/ssl-config-core_2.12/bundles/ssl-config-core_2.12-0.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.1/ssl-config-core_2.12-0.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.0.4" status="release" pubdate="20161029071045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2785" time="0" location="/home/dubt/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.2.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="bundle" ext="jar" status="no" details="" size="204313" time="0" location="/home/dubt/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.0" status="release" pubdate="20150430001454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2397" time="0" location="/home/dubt/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="3.2.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="2.4.20"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="2042" time="0" location="/home/dubt/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-parsing_2.12">
+			<revision name="10.0.11" status="release" pubdate="20171201170413" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3107" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/ivy-10.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.0.11/akka-parsing_2.12-10.0.11.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core_2.12" conf="compile, runtime" rev="10.0.11" rev-constraint-default="10.0.11" rev-constraint-dynamic="10.0.11" callerrev="10.0.11"/>
+				<artifacts>
+					<artifact name="akka-parsing_2.12" type="jar" ext="jar" status="no" details="" size="970741" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/jars/akka-parsing_2.12-10.0.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.0.11/akka-parsing_2.12-10.0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.4.20" status="release" pubdate="20170811005310" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.20" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3102" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/ivy-2.4.20.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.20/akka-actor_2.12-2.4.20.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-parsing_2.12" conf="compile, runtime" rev="2.4.20" rev-constraint-default="2.4.20" rev-constraint-dynamic="2.4.20" callerrev="10.0.11"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.12" conf="compile, runtime" rev="2.4.20" rev-constraint-default="2.4.20" rev-constraint-dynamic="2.4.20" callerrev="2.4.20"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="jar" ext="jar" status="no" details="" size="3002743" time="0" location="/home/dubt/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.20.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.20/akka-actor_2.12-2.4.20.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.8.0" status="release" pubdate="20161030061227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/home/dubt/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="2.4.20"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="bundle" ext="jar" status="no" details="" size="1165728" time="0" location="/home/dubt/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.4" status="release" pubdate="20150403203112" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11673" time="0" location="/home/dubt/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="0.9.1"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="434678" time="0" location="/home/dubt/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.3.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="3.4"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="0.9.1"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120613062206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8704" time="0" location="/home/dubt/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="org.nd4j" name="nd4j-common" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.9.1"/>
+				<caller organisation="org.datavec" name="datavec-api" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-ui-components" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-nn" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.9.1"/>
+				<caller organisation="org.deeplearning4j" name="deeplearning4j-core" conf="default, compile, runtime, master" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/home/dubt/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.0" status="release" pubdate="20150508234611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="/home/dubt/.ivy2/cache/com.typesafe/config/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.2.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="2.4.20"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="3.2.1"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="277782" time="0" location="/home/dubt/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.2.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.3.0"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="3.2.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.2.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.3.0"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.2.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.4" status="release" pubdate="20171011152224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2637" time="0" location="/home/dubt/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.pom"/>
+				<caller organisation="com.lihaoyi" name="autowire_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.2.6"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3587892" time="0" location="/home/dubt/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sharedjvm" name="sharedjvm_2.12">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180221203709" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="jvm" name="jvm_2.12" conf="compile-internal, compile, provided, optional" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="scalatags_2.12">
+			<revision name="0.6.7" status="release" pubdate="20170913051752" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/scalatags" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3350" time="0" location="/home/dubt/.ivy2/cache/com.lihaoyi/scalatags_2.12/ivy-0.6.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/scalatags_2.12/0.6.7/scalatags_2.12-0.6.7.pom"/>
+				<caller organisation="sharedjvm" name="sharedjvm_2.12" conf="compile" rev="0.6.7" rev-constraint-default="0.6.7" rev-constraint-dynamic="0.6.7" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalatags_2.12" type="jar" ext="jar" status="no" details="" size="485532" time="0" location="/home/dubt/.ivy2/cache/com.lihaoyi/scalatags_2.12/jars/scalatags_2.12-0.6.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/scalatags_2.12/0.6.7/scalatags_2.12-0.6.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="sourcecode_2.12">
+			<revision name="0.1.4" status="release" pubdate="20170709074037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/sourcecode" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="MIT" url="http://www.opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="2962" time="0" location="/home/dubt/.ivy2/cache/com.lihaoyi/sourcecode_2.12/ivy-0.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/sourcecode_2.12-0.1.4.pom"/>
+				<caller organisation="com.lihaoyi" name="derive_2.12" conf="compile, runtime" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.4.4"/>
+				<caller organisation="com.lihaoyi" name="scalatags_2.12" conf="default, compile, runtime, master" rev="0.1.4" rev-constraint-default="0.1.4" rev-constraint-dynamic="0.1.4" callerrev="0.6.7"/>
+				<caller organisation="com.lihaoyi" name="upickle_2.12" conf="default, compile, runtime, master" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.4.4"/>
+				<artifacts>
+					<artifact name="sourcecode_2.12" type="bundle" ext="jar" status="no" details="" size="110958" time="0" location="/home/dubt/.ivy2/cache/com.lihaoyi/sourcecode_2.12/bundles/sourcecode_2.12-0.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/sourcecode_2.12-0.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.1.3" status="release" pubdate="20161101023242" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/lihaoyi/sourcecode" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2822" time="0" location="/home/dubt/.ivy2/cache/com.lihaoyi/sourcecode_2.12/ivy-0.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.3/sourcecode_2.12-0.1.3.pom"/>
+				<evicted-by rev="0.1.4"/>
+				<caller organisation="com.lihaoyi" name="derive_2.12" conf="compile, runtime" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.4.4"/>
+				<caller organisation="com.lihaoyi" name="upickle_2.12" conf="default, compile, runtime, master" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.4.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.suzaku" name="boopickle_2.12">
+			<revision name="1.2.6" status="release" pubdate="20170125171439" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ochrons/boopickle" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3061" time="0" location="/home/dubt/.ivy2/cache/io.suzaku/boopickle_2.12/ivy-1.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/suzaku/boopickle_2.12/1.2.6/boopickle_2.12-1.2.6.pom"/>
+				<caller organisation="sharedjvm" name="sharedjvm_2.12" conf="compile" rev="1.2.6" rev-constraint-default="1.2.6" rev-constraint-dynamic="1.2.6" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="boopickle_2.12" type="jar" ext="jar" status="no" details="" size="242018" time="0" location="/home/dubt/.ivy2/cache/io.suzaku/boopickle_2.12/jars/boopickle_2.12-1.2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/suzaku/boopickle_2.12/1.2.6/boopickle_2.12-1.2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="autowire_2.12">
+			<revision name="0.2.6" status="release" pubdate="20161108090952" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/ajax" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3306" time="0" location="/home/dubt/.ivy2/cache/com.lihaoyi/autowire_2.12/ivy-0.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/autowire_2.12/0.2.6/autowire_2.12-0.2.6.pom"/>
+				<caller organisation="sharedjvm" name="sharedjvm_2.12" conf="compile" rev="0.2.6" rev-constraint-default="0.2.6" rev-constraint-dynamic="0.2.6" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="autowire_2.12" type="jar" ext="jar" status="no" details="" size="95716" time="0" location="/home/dubt/.ivy2/cache/com.lihaoyi/autowire_2.12/jars/autowire_2.12-0.2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/autowire_2.12/0.2.6/autowire_2.12-0.2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="upickle_2.12">
+			<revision name="0.4.4" status="release" pubdate="20161107203253" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/upickle" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3653" time="0" location="/home/dubt/.ivy2/cache/com.lihaoyi/upickle_2.12/ivy-0.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/upickle_2.12/0.4.4/upickle_2.12-0.4.4.pom"/>
+				<caller organisation="sharedjvm" name="sharedjvm_2.12" conf="compile" rev="0.4.4" rev-constraint-default="0.4.4" rev-constraint-dynamic="0.4.4" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="upickle_2.12" type="jar" ext="jar" status="no" details="" size="319200" time="0" location="/home/dubt/.ivy2/cache/com.lihaoyi/upickle_2.12/jars/upickle_2.12-0.4.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/upickle_2.12/0.4.4/upickle_2.12-0.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="jawn-parser_2.12">
+			<revision name="0.10.3" status="release" pubdate="20161104120347" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2879" time="0" location="/home/dubt/.ivy2/cache/org.spire-math/jawn-parser_2.12/ivy-0.10.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.3/jawn-parser_2.12-0.10.3.pom"/>
+				<caller organisation="com.lihaoyi" name="upickle_2.12" conf="default, compile, runtime, master" rev="0.10.3" rev-constraint-default="0.10.3" rev-constraint-dynamic="0.10.3" callerrev="0.4.4"/>
+				<artifacts>
+					<artifact name="jawn-parser_2.12" type="jar" ext="jar" status="no" details="" size="74238" time="0" location="/home/dubt/.ivy2/cache/org.spire-math/jawn-parser_2.12/jars/jawn-parser_2.12-0.10.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.3/jawn-parser_2.12-0.10.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="derive_2.12">
+			<revision name="0.4.4" status="release" pubdate="20161107203234" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/upickle" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3359" time="0" location="/home/dubt/.ivy2/cache/com.lihaoyi/derive_2.12/ivy-0.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/derive_2.12/0.4.4/derive_2.12-0.4.4.pom"/>
+				<caller organisation="com.lihaoyi" name="upickle_2.12" conf="default, compile, runtime, master" rev="0.4.4" rev-constraint-default="0.4.4" rev-constraint-dynamic="0.4.4" callerrev="0.4.4"/>
+				<artifacts>
+					<artifact name="derive_2.12" type="jar" ext="jar" status="no" details="" size="32239" time="0" location="/home/dubt/.ivy2/cache/com.lihaoyi/derive_2.12/jars/derive_2.12-0.4.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/derive_2.12/0.4.4/derive_2.12-0.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.4" status="release" pubdate="20171011150456" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/home/dubt/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-parsing_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="10.0.11"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.2.1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="2.12.4"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.1.3"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.8.0"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.2.1"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.1.4"/>
+				<caller organisation="io.suzaku" name="boopickle_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="1.2.6"/>
+				<caller organisation="com.lihaoyi" name="scalatags_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.6.7"/>
+				<caller organisation="sharedjvm" name="sharedjvm_2.12" conf="compile" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.spire-math" name="jawn-parser_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.10.3"/>
+				<caller organisation="com.lihaoyi" name="derive_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.4.4"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="10.0.11"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="1.0.4"/>
+				<caller organisation="com.typesafe.akka" name="akka-http_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="10.0.11"/>
+				<caller organisation="com.lihaoyi" name="autowire_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.2.6"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="2.4.20"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.2.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="2.4.20"/>
+				<caller organisation="jvm" name="jvm_2.12" conf="compile-internal, compile, provided, optional" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="com.lihaoyi" name="upickle_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.4.4"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5247152" time="0" location="/home/dubt/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

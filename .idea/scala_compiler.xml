@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="incrementalityType" value="SBT" />
+    <profile name="sbt 1" modules="js">
+      <parameters>
+        <parameter value="-P:scalajs:mapSourceURI:file:/media/1t/syncthing/code/scala/scaladl/js/src/main/scala/-&gt;b74223531da39d71c3d7/" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.4/jars/scalajs-compiler_2.12.4-0.6.22.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 2" modules="sharedJS">
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.4/jars/scalajs-compiler_2.12.4-0.6.22.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 3" modules="scalacross,scaladl,jvm,sharedJVM">
+      <option name="implicitConversions" value="true" />
+    </profile>
+  </component>
+</project>
