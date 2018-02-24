@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dl4j-scala-build~1.iml" filepath="$PROJECT_DIR$/.idea/modules/dl4j-scala-build~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dl4j-scala-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/dl4j-scala-sources.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/js.iml" filepath="$PROJECT_DIR$/.idea/modules/js.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/js-build.iml" filepath="$PROJECT_DIR$/.idea/modules/js-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jvm.iml" filepath="$PROJECT_DIR$/.idea/modules/jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jvm-build.iml" filepath="$PROJECT_DIR$/.idea/modules/jvm-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scaladl.iml" filepath="$PROJECT_DIR$/.idea/modules/scaladl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scaladl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scaladl-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scaladl-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/scaladl-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-dl4j-scala.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-dl4j-scala.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedJS.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedJS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedJS-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedJVM.iml" />

@@ -1,4 +1,3 @@
-[debug] no default cache defined: set to /home/dubt/.ivy2/cache
 [debug] :: resolving dependencies :: sharedjs#sharedjs$sources;0.1.0-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, phantom-js-jetty]
 [debug] 	validate = true
@@ -1999,6 +1998,17 @@
 [debug] == resolving dependencies sharedjs#sharedjs$sources;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [phantom-js-jetty->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] io.suzaku#boopickle_sjs0.6_2.12;1.2.6!boopickle_sjs0.6_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-library_2.12;0.6.22!scalajs-library_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#derive_sjs0.6_2.12;0.4.4!derive_sjs0.6_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#upickle_sjs0.6_2.12;0.4.4!upickle_sjs0.6_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_sjs0.6_2.12;0.1.4!sourcecode_sjs0.6_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#scalatags_sjs0.6_2.12;0.6.7!scalatags_sjs0.6_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#autowire_sjs0.6_2.12;0.2.6!autowire_sjs0.6_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.1!scalajs-dom_sjs0.6_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.12;0.6.22!scalajs-test-interface_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.12.4;0.6.22!scalajs-compiler_2.12.4.jar(src)
@@ -2010,28 +2020,17 @@
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] com.lihaoyi#autowire_sjs0.6_2.12;0.2.6!autowire_sjs0.6_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.1!scalajs-dom_sjs0.6_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.lihaoyi#derive_sjs0.6_2.12;0.4.4!derive_sjs0.6_2.12.jar(src)
-[debug] 	[NOT REQUIRED] io.suzaku#boopickle_sjs0.6_2.12;1.2.6!boopickle_sjs0.6_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.12;0.6.22!scalajs-test-interface_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.lihaoyi#upickle_sjs0.6_2.12;0.4.4!upickle_sjs0.6_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_sjs0.6_2.12;0.1.4!sourcecode_sjs0.6_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-js#scalajs-library_2.12;0.6.22!scalajs-library_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] com.lihaoyi#scalatags_sjs0.6_2.12;0.6.7!scalatags_sjs0.6_2.12.jar(src)
-[debug] :: resolution report :: resolve 192ms :: artifacts dl 16ms
-[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT compile produced in /media/1t/syncthing/code/scala/scaladl/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-compile.xml
-[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT runtime produced in /media/1t/syncthing/code/scala/scaladl/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-runtime.xml
-[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT test produced in /media/1t/syncthing/code/scala/scaladl/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-test.xml
-[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT provided produced in /media/1t/syncthing/code/scala/scaladl/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-provided.xml
-[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT optional produced in /media/1t/syncthing/code/scala/scaladl/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-optional.xml
-[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT compile-internal produced in /media/1t/syncthing/code/scala/scaladl/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-compile-internal.xml
-[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT runtime-internal produced in /media/1t/syncthing/code/scala/scaladl/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-runtime-internal.xml
-[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT test-internal produced in /media/1t/syncthing/code/scala/scaladl/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-test-internal.xml
-[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT plugin produced in /media/1t/syncthing/code/scala/scaladl/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-plugin.xml
-[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT pom produced in /media/1t/syncthing/code/scala/scaladl/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-pom.xml
-[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT scala-tool produced in /media/1t/syncthing/code/scala/scaladl/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-scala-tool.xml
-[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT phantom-js-jetty produced in /media/1t/syncthing/code/scala/scaladl/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-phantom-js-jetty.xml
-[debug] 	resolve done (192ms resolve - 16ms download)
+[debug] :: resolution report :: resolve 380ms :: artifacts dl 13ms
+[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT compile produced in /media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-compile.xml
+[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT runtime produced in /media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-runtime.xml
+[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT test produced in /media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-test.xml
+[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT provided produced in /media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-provided.xml
+[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT optional produced in /media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-optional.xml
+[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT compile-internal produced in /media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-compile-internal.xml
+[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT runtime-internal produced in /media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-runtime-internal.xml
+[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT test-internal produced in /media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-test-internal.xml
+[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT plugin produced in /media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-plugin.xml
+[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT pom produced in /media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-pom.xml
+[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT scala-tool produced in /media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-scala-tool.xml
+[debug] 	report for sharedjs#sharedjs$sources;0.1.0-SNAPSHOT phantom-js-jetty produced in /media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-phantom-js-jetty.xml
+[debug] 	resolve done (380ms resolve - 13ms download)

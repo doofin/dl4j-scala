@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180221203712"/>
+		date="20180224192728"/>
 	<dependencies>
 		<module organisation="org.xerial" name="sqlite-jdbc">
 			<revision name="3.7.2" status="release" pubdate="20100827172018" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="73">
@@ -274,7 +274,7 @@
 			</revision>
 		</module>
 		<module organisation="sharedjvm" name="sharedjvm_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180221203709" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="32">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180224192726" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="32">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="jvm" name="jvm$sources" conf="compile, runtime" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>

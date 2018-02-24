@@ -1,22 +1,431 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e00c0bf-1561-4ed4-a8a2-184839809581" name="Default" comment="" />
+    <list default="true" id="c6f54a97-ba05-4cb5-955b-5e9b503250df" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/js-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/js-build.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/js.iml" afterPath="$PROJECT_DIR$/.idea/modules/js.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/jvm-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/jvm-build.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/jvm.iml" afterPath="$PROJECT_DIR$/.idea/modules/jvm.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scaladl-build.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scaladl-sources.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scaladl.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/sharedJS-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/sharedJS-build.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/sharedJS.iml" afterPath="$PROJECT_DIR$/.idea/modules/sharedJS.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/sharedJVM-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/sharedJVM-build.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/sharedJVM.iml" afterPath="$PROJECT_DIR$/.idea/modules/sharedJVM.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.sync-conflict-20180128-155741-RWSYDFW.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change beforePath="$PROJECT_DIR$/js/src/main/scala/jsMain.scala" afterPath="$PROJECT_DIR$/js/src/main/scala/jsMain.scala" />
+      <change beforePath="$PROJECT_DIR$/js/src/main/scala/misc.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/src/main/scala/test.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/Main$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/Main$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/bulma_lam$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/bulma_lam$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/commons$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/commons$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/jsApi$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/jsApi$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/lam$$anon$1.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/lam$$anon$1.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/lam$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/lam$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/lam$evtemitters.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/lam$evtemitters.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/lam$pipeOps.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/lam$pipeOps.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/lam$srcs.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/lam$srcs.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/lam$xstreamOps.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/lam$xstreamOps.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/rpc$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/rpc$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/rpc$autowireClient$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/rpc$autowireClient$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/rpc$autowireClientUnauth$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/rpc$autowireClientUnauth$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/test$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/test$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$$anon$1.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$$anon$1.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$$anon$2.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$$anon$2.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$37$2$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$37$2$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$37$2$Pickler$macro$38$2$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$37$2$Pickler$macro$38$2$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$37$2$Pickler$macro$39$2$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$37$2$Pickler$macro$39$2$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$40$2$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$40$2$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$40$2$Pickler$macro$41$2$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$40$2$Pickler$macro$41$2$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$40$2$Pickler$macro$42$2$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$40$2$Pickler$macro$42$2$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$dbaction$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$dbaction$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$dbaction$added$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$dbaction$added$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$dbaction$dbaction.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$dbaction$dbaction.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$dbaction$delete$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$dbaction$delete$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$searchByT$.sjsir" afterPath="$PROJECT_DIR$/js/target/scala-2.12/classes/wheatedu_lam$searchByT$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/js/js$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/js/js$sources/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/js/js$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/js/js$sources/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-compile.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-optional.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-phantom-js-jetty.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-phantom-js-jetty.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-plugin.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-pom.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-provided.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-runtime.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-test-internal.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-test.xml" afterPath="$PROJECT_DIR$/js/target/scala-2.12/resolution-cache/reports/js-js$sources-test.xml" />
+      <change beforePath="$PROJECT_DIR$/js/target/scala-2.12/scalajs-bundler/main/js-fastopt.js.map" afterPath="$PROJECT_DIR$/js/target/scala-2.12/scalajs-bundler/main/js-fastopt.js.map" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" afterPath="$PROJECT_DIR$/js/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/$global/$global/streams/package-js-deps/out-cache" afterPath="$PROJECT_DIR$/js/target/streams/$global/$global/$global/streams/package-js-deps/out-cache" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/js/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/js/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/js/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/js/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/js/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/js/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/js/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/$global/streams/in-cache" afterPath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/$global/streams/in-cache" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/$global/streams/out" afterPath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/$global/streams/out-cache" afterPath="$PROJECT_DIR$/js/target/streams/compile/fastOptJS/$global/streams/out-cache" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/js/target/streams/compile/fullClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/js/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/js/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/resources/application.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/scala/db.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/scala/jvmMain.scala" afterPath="$PROJECT_DIR$/jvm/src/main/scala/jvmMain.scala" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/jvm_2.12-0.1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/jvm_2.12-0.1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/jvm/jvm$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/jvm/jvm$sources/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/jvm/jvm$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/jvm/jvm$sources/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-compile.xml" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-optional.xml" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-plugin.xml" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-pom.xml" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-provided.xml" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-runtime.xml" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-test-internal.xml" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-test.xml" afterPath="$PROJECT_DIR$/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-test.xml" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/jvm/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/jvm/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/jvm/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/compile/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/copyResources/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/exportedProductJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/$global/streams/output" afterPath="$PROJECT_DIR$/jvm/target/streams/compile/packageBin/$global/streams/output" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/jvm/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/runtime/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/jvm/target/streams/runtime/exportedProductJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/runtime/fullClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/jvm/target/streams/runtime/fullClasspathAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/streams/runtime/internalDependencyAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/jvm/target/streams/runtime/internalDependencyAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$6b1f449acdb38c864262.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$9307f16b09dafee68a26.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$c00cfd9ae2caf7c0dfae.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$eef79c905868329981fe.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$f0deef0a207a789e9c6c.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/active.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$26f04313004f7428dd2c.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$55e3f8800de5a722d2f0.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$82af526162536de43e4f.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$91913ff3923d93465692.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c805260c42f4a8b4142c.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d2547bb8516474afc8c8.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$authLevel$.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$authLevel$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$authLevel$admin$.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$authLevel$admin$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$authLevel$permission.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$authLevel$permission.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$authLevel$teacher$.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$authLevel$teacher$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$logInfo$.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$logInfo$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$logInfo.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api$logInfo.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/Api.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedPure$.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedPure$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedPure$Bool.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedPure$Bool.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedStr$.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedStr$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedType$.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedType$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedType$name_password$.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedType$name_password$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedType$name_password.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedType$name_password.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedUtil$.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/sharedUtil$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/unauthApi.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/classes/unauthApi.sjsir" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-compile.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-optional.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-phantom-js-jetty.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-phantom-js-jetty.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-plugin.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-pom.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-provided.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-runtime.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-test-internal.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-test.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-test.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/sharedjs/sharedjs$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/sharedjs/sharedjs$sources/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/sharedjs/sharedjs$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/sharedjs/sharedjs$sources/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-compile.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-optional.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-plugin.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-pom.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-provided.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-runtime.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-test-internal.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-test.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-test.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/sharedjvm/sharedjvm$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/sharedjvm/sharedjvm$sources/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/sharedjvm/sharedjvm$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/sharedjvm/sharedjvm$sources/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/sharedjvm_2.12-0.1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/sharedjvm_2.12-0.1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/exportedProductJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/packageBin/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/packageBin/$global/streams/output" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/packageBin/$global/streams/output" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/.name" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/js-build.iml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/js-build.iml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/js.iml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/js.iml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/jvm-build.iml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/jvm-build.iml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/jvm.iml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/jvm.iml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/scaladl-build.iml" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/scaladl-sources.iml" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/scaladl.iml" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/sharedJS-build.iml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/sharedJS-build.iml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/sharedJS.iml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/sharedJS.iml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/sharedJVM-build.iml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/sharedJVM-build.iml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/sharedJVM.iml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/modules/sharedJVM.iml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/sbt.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/sbt.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/scala_compiler.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/scala_compiler.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/vcs.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/vcs.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/workspace.sync-conflict-20180128-155741-RWSYDFW.xml" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/workspace.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/.idea/workspace.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/build.sbt" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/build.sbt" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/src/main/scala/jsMain.scala" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/src/main/scala/jsMain.scala" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/src/main/scala/misc.scala" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/src/main/scala/test.scala" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/Main$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/Main$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/bulma_lam$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/bulma_lam$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/commons$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/commons$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/jsApi$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/jsApi$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/lam$$anon$1.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/lam$$anon$1.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/lam$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/lam$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/lam$evtemitters.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/lam$evtemitters.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/lam$pipeOps.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/lam$pipeOps.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/lam$srcs.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/lam$srcs.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/lam$xstreamOps.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/lam$xstreamOps.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/rpc$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/rpc$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/rpc$autowireClient$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/rpc$autowireClient$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/rpc$autowireClientUnauth$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/rpc$autowireClientUnauth$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/test$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/test$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$$anon$1.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$$anon$1.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$$anon$2.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$$anon$2.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$37$2$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$37$2$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$37$2$Pickler$macro$38$2$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$37$2$Pickler$macro$38$2$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$37$2$Pickler$macro$39$2$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$37$2$Pickler$macro$39$2$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$40$2$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$40$2$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$40$2$Pickler$macro$41$2$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$40$2$Pickler$macro$41$2$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$40$2$Pickler$macro$42$2$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$Pickler$macro$36$2$TraitPickler$macro$40$2$Pickler$macro$42$2$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$dbaction$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$dbaction$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$dbaction$added$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$dbaction$added$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$dbaction$dbaction.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$dbaction$dbaction.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$dbaction$delete$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$dbaction$delete$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$searchByT$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/classes/wheatedu_lam$searchByT$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/js/js$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/js/js$sources/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/js/js$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/js/js$sources/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-compile-internal.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-compile-internal.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-compile.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-compile.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-optional.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-optional.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-phantom-js-jetty.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-phantom-js-jetty.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-plugin.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-plugin.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-pom.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-pom.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-provided.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-provided.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-runtime-internal.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-runtime-internal.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-runtime.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-runtime.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-scala-tool.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-scala-tool.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-test-internal.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-test-internal.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-test.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-test.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/scalajs-bundler/main/js-fastopt.js.map" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/scalajs-bundler/main/js-fastopt.js.map" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/$global/$global/$global/streams/package-js-deps/out-cache" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/$global/$global/$global/streams/package-js-deps/out-cache" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/compileIncremental/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/compileIncremental/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/exportedProducts/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/fastOptJS/$global/streams/in-cache" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/fastOptJS/$global/streams/in-cache" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/fastOptJS/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/fastOptJS/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/fastOptJS/$global/streams/out-cache" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/fastOptJS/$global/streams/out-cache" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/fullClasspath/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/fullClasspath/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/js/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/src/main/resources/application.conf" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/src/main/scala/db.scala" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/src/main/scala/jvmMain.scala" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/src/main/scala/jvmMain.scala" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/jvm_2.12-0.1.0-SNAPSHOT.jar" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/jvm_2.12-0.1.0-SNAPSHOT.jar" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/jvm/jvm$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/jvm/jvm$sources/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/jvm/jvm$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/jvm/jvm$sources/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-compile-internal.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-compile-internal.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-compile.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-compile.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-optional.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-optional.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-plugin.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-plugin.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-pom.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-pom.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-provided.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-provided.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-runtime-internal.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-runtime-internal.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-runtime.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-runtime.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-scala-tool.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-scala-tool.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-test-internal.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-test-internal.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-test.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/scala-2.12/resolution-cache/reports/jvm-jvm$sources-test.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/compile/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/compile/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/compileIncremental/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/compileIncremental/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/copyResources/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/copyResources/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/exportedProductJars/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/exportedProductJars/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/packageBin/$global/streams/inputs" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/packageBin/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/packageBin/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/packageBin/$global/streams/output" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/compile/packageBin/$global/streams/output" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/runtime/exportedProductJars/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/runtime/exportedProductJars/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/runtime/fullClasspathAsJars/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/runtime/fullClasspathAsJars/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/runtime/internalDependencyAsJars/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/streams/runtime/internalDependencyAsJars/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/project/target/config-classes/$6b1f449acdb38c864262.cache" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/project/target/config-classes/$9307f16b09dafee68a26.cache" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/project/target/config-classes/$c00cfd9ae2caf7c0dfae.cache" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/project/target/config-classes/$eef79c905868329981fe.cache" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/project/target/config-classes/$f0deef0a207a789e9c6c.cache" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/active.json" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/config-classes/$26f04313004f7428dd2c.cache" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/config-classes/$55e3f8800de5a722d2f0.cache" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/config-classes/$82af526162536de43e4f.cache" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/config-classes/$91913ff3923d93465692.cache" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/config-classes/$c805260c42f4a8b4142c.cache" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/config-classes/$d2547bb8516474afc8c8.cache" afterPath="" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/$global/update/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/compile/copyResources/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$authLevel$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$authLevel$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$authLevel$admin$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$authLevel$admin$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$authLevel$permission.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$authLevel$permission.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$authLevel$teacher$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$authLevel$teacher$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$logInfo$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$logInfo$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$logInfo.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api$logInfo.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/Api.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedPure$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedPure$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedPure$Bool.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedPure$Bool.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedStr$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedStr$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedType$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedType$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedType$name_password$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedType$name_password$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedType$name_password.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedType$name_password.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedUtil$.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/sharedUtil$.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/unauthApi.sjsir" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/classes/unauthApi.sjsir" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-compile-internal.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-compile-internal.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-compile.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-compile.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-optional.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-optional.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-phantom-js-jetty.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-phantom-js-jetty.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-plugin.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-plugin.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-pom.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-pom.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-provided.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-provided.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-runtime-internal.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-runtime-internal.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-runtime.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-runtime.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-scala-tool.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-scala-tool.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-test-internal.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-test-internal.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-test.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/reports/sharedjs-sharedjs$sources-test.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/sharedjs/sharedjs$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/sharedjs/sharedjs$sources/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/sharedjs/sharedjs$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/scala-2.12/resolution-cache/sharedjs/sharedjs$sources/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/compile/compileIncremental/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/compile/compileIncremental/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/compile/exportedProducts/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-compile-internal.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-compile-internal.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-compile.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-compile.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-optional.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-optional.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-plugin.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-plugin.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-pom.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-pom.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-provided.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-provided.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-runtime-internal.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-runtime-internal.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-runtime.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-runtime.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-scala-tool.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-scala-tool.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-test-internal.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-test-internal.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-test.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/reports/sharedjvm-sharedjvm$sources-test.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/sharedjvm/sharedjvm$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/sharedjvm/sharedjvm$sources/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/sharedjvm/sharedjvm$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/resolution-cache/sharedjvm/sharedjvm$sources/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/sharedjvm_2.12-0.1.0-SNAPSHOT.jar" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/sharedjvm_2.12-0.1.0-SNAPSHOT.jar" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/compileIncremental/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/compileIncremental/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/exportedProductJars/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/exportedProductJars/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/exportedProducts/$global/streams/export" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/packageBin/$global/streams/inputs" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/packageBin/$global/streams/out" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/packageBin/$global/streams/out" />
+      <change beforePath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/packageBin/$global/streams/output" afterPath="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/streams/compile/packageBin/$global/streams/output" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
-    <ignored path="$PROJECT_DIR$/js/target/" />
-    <ignored path="$PROJECT_DIR$/jvm/target/" />
-    <ignored path="$PROJECT_DIR$/shared/.js/target/" />
-    <ignored path="$PROJECT_DIR$/shared/.jvm/target/" />
-    <ignored path="$PROJECT_DIR$/js/project/project/target/" />
-    <ignored path="$PROJECT_DIR$/js/project/target/" />
-    <ignored path="$PROJECT_DIR$/jvm/project/project/target/" />
-    <ignored path="$PROJECT_DIR$/jvm/project/target/" />
-    <ignored path="$PROJECT_DIR$/shared/.js/project/project/target/" />
-    <ignored path="$PROJECT_DIR$/shared/.js/project/target/" />
-    <ignored path="$PROJECT_DIR$/shared/.jvm/project/project/target/" />
-    <ignored path="$PROJECT_DIR$/shared/.jvm/project/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/js/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/jvm/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/project/project/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/project/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/js/project/project/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/js/project/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/jvm/project/project/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/jvm/project/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/project/project/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/project/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/project/project/target/" />
+    <ignored path="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,62 +441,17 @@
   <component name="ExternalProjectsManager">
     <system id="SBT">
       <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="wheatedu" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+    <leaf>
+      <file leaf-file-name="dl.scala" pinned="false" current-in-tab="false">
+        <entry file="file:///media/1t/syncthing/code/scala/dl4j-scala/jvm/src/main/scala/dl.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1566">
-              <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="misc.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/src/main/scala/misc.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jvmMain.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jvm/src/main/scala/jvmMain.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2160">
-              <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <marker date="1519242491861" expanded="true" signature="10919:10923" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dl.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jvm/src/main/scala/dl.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="268" column="23" lean-forward="false" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
+            <state relative-caret-position="540">
+              <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -95,60 +459,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSet.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-0.9.1-sources.jar!/org/nd4j/linalg/dataset/DataSet.java">
+      <file leaf-file-name="jvmMain.scala" pinned="false" current-in-tab="false">
+        <entry file="file:///media/1t/syncthing/code/scala/dl4j-scala/jvm/src/main/scala/jvmMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4887">
-              <caret line="212" column="9" lean-forward="false" selection-start-line="212" selection-start-column="9" selection-end-line="212" selection-end-column="9" />
+            <state relative-caret-position="324">
+              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MnistDataSetIterator.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/srcs/deeplearning4j-core-0.9.1-sources.jar!/org/deeplearning4j/datasets/iterator/impl/MnistDataSetIterator.java">
+      <file leaf-file-name="shared.scala" pinned="false" current-in-tab="false">
+        <entry file="file:///media/1t/syncthing/code/scala/dl4j-scala/shared/src/main/scala/shared.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1053">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseDatasetIterator.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-0.9.1-sources.jar!/org/deeplearning4j/datasets/iterator/BaseDatasetIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MnistDataFetcher.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/srcs/deeplearning4j-core-0.9.1-sources.jar!/org/deeplearning4j/datasets/fetchers/MnistDataFetcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4455">
-              <caret line="181" column="29" lean-forward="false" selection-start-line="181" selection-start-column="29" selection-end-line="181" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#6955#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultiLayerNetwork.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-0.9.1-sources.jar!/org/deeplearning4j/nn/multilayer/MultiLayerNetwork.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42147">
-              <caret line="1625" column="41" lean-forward="false" selection-start-line="1625" selection-start-column="41" selection-end-line="1625" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jvm/src/main/scala/db.scala">
+      <file leaf-file-name="jsMain.scala" pinned="false" current-in-tab="false">
+        <entry file="file:///media/1t/syncthing/code/scala/dl4j-scala/js/src/main/scala/jsMain.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -157,106 +489,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="true">
+        <entry file="file:///media/1t/syncthing/code/scala/dl4j-scala/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>log e</find>
-      <find>log erro</find>
-      <find>del</find>
-      <find>~~&gt;</find>
-      <find>deletep</find>
-      <find>delete</find>
-      <find>1 to</find>
-      <find>notif</find>
-      <find>no per</find>
-      <find>labelMaker</find>
-      <find>enter</find>
-      <find>number</find>
-      <find>.fit</find>
-      <find>w:</find>
-      <find>setin</find>
-      <find>new file</find>
-      <find>readlin</find>
-      <find>read</find>
-      <find>setlist</find>
-      <find>javacon</find>
-      <find>collec</find>
-      <find>score</find>
-      <find>nout</find>
-      <find>10</find>
-      <find>img``</find>
-      <find>mnist</find>
-      <find>recordrea</find>
-      <find>resha</find>
-      <find>fit</find>
-      <find>eval</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>(id, nm,cls, rc, sd, ed, ph, ext)</replace>
-      <replace>unit</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$USER_HOME$/.ivy2/cache/com.raquo/laminar_sjs0.6_2.12/jars/laminar_sjs0.6_2.12-0.2.jar!/com/raquo/laminar</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GotoClassSymbolConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="DTD" />
-      <filtered-out-file-type name="Groovy" />
-      <filtered-out-file-type name="HOCON" />
-      <filtered-out-file-type name="HTML" />
-      <filtered-out-file-type name="JAVA" />
-      <filtered-out-file-type name="JQL" />
-      <filtered-out-file-type name="JSON" />
-      <filtered-out-file-type name="JShellLanguage" />
-      <filtered-out-file-type name="Manifest" />
-      <filtered-out-file-type name="Markdown" />
-      <filtered-out-file-type name="Properties" />
-      <filtered-out-file-type name="RELAX-NG" />
-      <filtered-out-file-type name="RegExp" />
-      <filtered-out-file-type name="SPI" />
-      <filtered-out-file-type name="SSP" />
-      <filtered-out-file-type name="TEXT" />
-      <filtered-out-file-type name="UAST" />
-      <filtered-out-file-type name="UastContextLanguage" />
-      <filtered-out-file-type name="XHTML" />
-      <filtered-out-file-type name="XML" />
-      <filtered-out-file-type name="YouTrack" />
-      <filtered-out-file-type name="kotlin" />
-      <filtered-out-file-type name="sbtShell" />
-    </file-type-list>
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="/media/1t/syncthing/code/scala/dl4j-scala" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jvm/src/main/resources/application.conf" />
-        <option value="$PROJECT_DIR$/shared/src/main/scala/sharedPure.scala" />
-        <option value="$PROJECT_DIR$/jvm/src/main/scala/Main.scala" />
-        <option value="$PROJECT_DIR$/js/src/main/scala/Main.scala" />
-        <option value="$PROJECT_DIR$/index.htm" />
-        <option value="$PROJECT_DIR$/outwatch/project/build.properties" />
-        <option value="$PROJECT_DIR$/js/src/main/scala/util.scala" />
-        <option value="$PROJECT_DIR$/js/src/main/scala/legacy.scala" />
-        <option value="$PROJECT_DIR$/project/build.properties" />
-        <option value="$PROJECT_DIR$/jvm/src/main/scala/db.scala" />
-        <option value="$PROJECT_DIR$/project/plugins.sbt" />
-        <option value="$PROJECT_DIR$/js/src/main/scala/oak.scala" />
-        <option value="$PROJECT_DIR$/js/src/main/scala/test.scala" />
-        <option value="$PROJECT_DIR$/shared/src/main/scala/shared.scala" />
-        <option value="$PROJECT_DIR$/js/src/main/scala/misc.scala" />
-        <option value="$PROJECT_DIR$/js/src/main/scala/jsMain.scala" />
-        <option value="$PROJECT_DIR$/jvm/src/main/scala/jvmMain.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/jvm/src/main/scala/dl.scala" />
+        <option value="/media/1t/syncthing/code/scala/dl4j-scala/jvm/src/main/scala/jvmMain.scala" />
+        <option value="/media/1t/syncthing/code/scala/dl4j-scala/js/src/main/scala/jsMain.scala" />
+        <option value="/media/1t/syncthing/code/scala/dl4j-scala/build.sbt" />
       </list>
     </option>
   </component>
@@ -265,70 +518,6 @@
     <option name="y" value="248" />
     <option name="width" value="1914" />
     <option name="height" value="1059" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Code style issuesJava</id>
-          </State>
-          <State>
-            <id>CollectionsScala</id>
-          </State>
-          <State>
-            <id>Declaration redundancyJava</id>
-          </State>
-          <State>
-            <id>GeneralScala</id>
-          </State>
-          <State>
-            <id>Inheritance issuesJava</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java 5Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>OptionsCollectionsScala</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>RELAX NG</id>
-          </State>
-          <State>
-            <id>Reflective access issuesJava</id>
-          </State>
-          <State>
-            <id>Scala</id>
-          </State>
-          <State>
-            <id>Simplifications: filter and existsCollectionsScala</id>
-          </State>
-          <State>
-            <id>Simplifications: find and map to applyCollectionsScala</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>General</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -346,37 +535,60 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="dl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scaladl" type="462c0819:PsiDirectoryNode" />
+              <item name="dl4j-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl4j-scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scaladl" type="462c0819:PsiDirectoryNode" />
+              <item name="dl4j-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl4j-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dl4j-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl4j-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dl4j-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl4j-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dl4j-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl4j-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dl4j-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl4j-scala" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scaladl" type="462c0819:PsiDirectoryNode" />
+              <item name="dl4j-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl4j-scala" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scaladl" type="462c0819:PsiDirectoryNode" />
+              <item name="dl4j-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl4j-scala" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scaladl" type="462c0819:PsiDirectoryNode" />
+              <item name="dl4j-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl4j-scala" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -386,21 +598,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
-    <property name="last_opened_file_path" value="$USER_HOME$/work/dl4j-examples" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jvm/src/main/resources" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -422,22 +623,7 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jvm" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -457,67 +643,24 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1519216635445" />
+    <option name="lastUpdateTimestamp" value="1519471651148" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -530,48 +673,48 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="scaladl" />
-                <option name="path" value="$PROJECT_DIR$" />
+                <option name="name" value="dl4j-scala" />
+                <option name="path" value="/media/1t/syncthing/code/scala/dl4j-scala" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="js" />
-                <option name="path" value="$PROJECT_DIR$/js" />
+                <option name="path" value="/media/1t/syncthing/code/scala/dl4j-scala/js" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="jvm" />
-                <option name="path" value="$PROJECT_DIR$/jvm" />
+                <option name="path" value="/media/1t/syncthing/code/scala/dl4j-scala/jvm" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="sharedJS" />
-                <option name="path" value="$PROJECT_DIR$/shared/.js" />
+                <option name="path" value="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="sharedJVM" />
-                <option name="path" value="$PROJECT_DIR$/shared/.jvm" />
+                <option name="path" value="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="scaladl-sources" />
-                <option name="path" value="$PROJECT_DIR$/shared" />
+                <option name="name" value="dl4j-scala-sources" />
+                <option name="path" value="/media/1t/syncthing/code/scala/dl4j-scala/shared" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="scaladl-build" />
-                <option name="path" value="$PROJECT_DIR$/project" />
+                <option name="name" value="dl4j-scala-build" />
+                <option name="path" value="/media/1t/syncthing/code/scala/dl4j-scala/project" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="js-build" />
-                <option name="path" value="$PROJECT_DIR$/js/project" />
+                <option name="path" value="/media/1t/syncthing/code/scala/dl4j-scala/js/project" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="jvm-build" />
-                <option name="path" value="$PROJECT_DIR$/jvm/project" />
+                <option name="path" value="/media/1t/syncthing/code/scala/dl4j-scala/jvm/project" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="sharedJS-build" />
-                <option name="path" value="$PROJECT_DIR$/shared/.js/project" />
+                <option name="path" value="/media/1t/syncthing/code/scala/dl4j-scala/shared/.js/project" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="sharedJVM-build" />
-                <option name="path" value="$PROJECT_DIR$/shared/.jvm/project" />
+                <option name="path" value="/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/project" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -581,418 +724,108 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../full-stack-scala" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../http4sTest/h4s" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../scalaSnabbdom" value="PREVIEW" />
-      </map>
-    </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="9e00c0bf-1561-4ed4-a8a2-184839809581" name="Default" comment="" />
-      <created>1514172845236</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1514172845236</updated>
-    </task>
-    <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="22" width="1922" height="1063" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3401507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944068" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24358974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25320512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05166846" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935413" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14424112" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19590957" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22128557" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944068" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24427083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.091675445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.raquo/laminar_sjs0.6_2.12/srcs/laminar_sjs0.6_2.12-0.2-sources.jar!/com/raquo/laminar/streams/WriteBus.scala" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Runnable.java" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/sys/process/ProcessBuilder.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-library_2.12/srcs/scalajs-library_2.12-0.6.22-sources.jar!/scala/scalajs/js/Date.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/sys/process/Process.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.0.11-sources.jar!/akka/http/scaladsl/server/directives/MethodDirectives.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/Option.scala" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/srcs/scalajs-dom_sjs0.6_2.12-0.9.4-sources.jar!/org/scalajs/dom/ext/Extensions.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/jars/scalajs-dom_sjs0.6_2.12-0.9.4.jar!/org/scalajs/dom/ext/Ajax.class">
+    <entry file="file:///media/1t/syncthing/code/scala/dl4j-scala/jvm/src/main/scala/dl.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/src/main/scala/test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/srcs/scalajs-dom_sjs0.6_2.12-0.9.4-sources.jar!/org/scalajs/dom/html.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.lihaoyi/autowire_sjs0.6_2.12/srcs/autowire_sjs0.6_2.12-0.2.6-sources.jar!/autowire/ClientServer.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/Predef.scala" />
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-library_2.12/srcs/scalajs-library_2.12-0.6.22-sources.jar!/scala/scalajs/js/package.scala" />
-    <entry file="file://$PROJECT_DIR$/project/build.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/shared.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1475">
-          <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.raquo.xstream/xstream_sjs0.6_2.12/jars/xstream_sjs0.6_2.12-0.3.1.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.raquo/domtypes_sjs0.6_2.12/srcs/domtypes_sjs0.6_2.12-0.5-sources.jar!/com/raquo/domtypes/generic/defs/tags/TextTags.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.raquo/domtypes_sjs0.6_2.12/srcs/domtypes_sjs0.6_2.12-0.5-sources.jar!/com/raquo/domtypes/generic/defs/tags/GroupingTags.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.0.11-sources.jar!/akka/http/scaladsl/server/directives/SecurityDirectives.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.raquo.xstream/xstream_sjs0.6_2.12/jars/xstream_sjs0.6_2.12-0.3.1.jar!/JS_DEPENDENCIES">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.raquo.xstream/xstream_sjs0.6_2.12/srcs/xstream_sjs0.6_2.12-0.3.1-sources.jar!/com/raquo/xstream/rawextras/RawDelay.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.raquo.xstream/xstream_sjs0.6_2.12/jars/xstream_sjs0.6_2.12-0.3.1.jar!/NPM_DEPENDENCIES">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.raquo.xstream/xstream_sjs0.6_2.12/srcs/xstream_sjs0.6_2.12-0.3.1-sources.jar!/com/raquo/xstream/Extras.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-0.9.1-sources.jar!/org/nd4j/linalg/activations/Activation.java" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-0.9.1-sources.jar!/org/deeplearning4j/nn/conf/layers/BaseLayer.java" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/jars/datavec-api-0.9.1.jar!/org/datavec/api/io/labels/PathLabelGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-data-image/jars/datavec-data-image-0.9.1.jar!/org/datavec/image/recordreader/BaseImageRecordReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="81" column="73" lean-forward="false" selection-start-line="81" selection-start-column="73" selection-end-line="81" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-data-image/jars/datavec-data-image-0.9.1.jar!/org/datavec/image/recordreader/ImageRecordReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/jars/datavec-api-0.9.1.jar!/org/datavec/api/split/FileSplit.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/jars/deeplearning4j-core-0.9.1.jar!/org/deeplearning4j/datasets/datavec/RecordReaderDataSetIterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4025">
-          <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/jars/deeplearning4j-nn-0.9.1.jar!/org/deeplearning4j/nn/multilayer/MultiLayerNetwork.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="2794" column="25" lean-forward="false" selection-start-line="2794" selection-start-column="25" selection-end-line="2794" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-data-image/srcs/datavec-data-image-0.9.1-sources.jar!/org/datavec/image/recordreader/ImageRecordReader.java" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/srcs/deeplearning4j-core-0.9.1-sources.jar!/org/deeplearning4j/datasets/datavec/RecordReaderDataSetIterator.java" />
-    <entry file="file://$PROJECT_DIR$/js/src/main/scala/jsMain.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="323" column="12" lean-forward="false" selection-start-line="323" selection-start-column="12" selection-end-line="323" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-data-image/srcs/datavec-data-image-0.9.1-sources.jar!/org/datavec/image/recordreader/BaseImageRecordReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="358" column="15" lean-forward="false" selection-start-line="358" selection-start-column="15" selection-end-line="358" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jvm/src/main/scala/db.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-0.9.1-sources.jar!/org/deeplearning4j/optimize/api/IterationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-0.9.1-sources.jar!/org/deeplearning4j/nn/multilayer/MultiLayerNetwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42147">
-          <caret line="1625" column="41" lean-forward="false" selection-start-line="1625" selection-start-column="41" selection-end-line="1625" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/src/main/scala/misc.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-0.9.1-sources.jar!/org/deeplearning4j/nn/conf/layers/ConvolutionLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="275" column="15" lean-forward="false" selection-start-line="275" selection-start-column="15" selection-end-line="275" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jvm/src/main/scala/jvmMain.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <marker date="1519242491861" expanded="true" signature="10919:10923" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/srcs/deeplearning4j-core-0.9.1-sources.jar!/org/deeplearning4j/datasets/iterator/impl/MnistDataSetIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-0.9.1-sources.jar!/org/nd4j/linalg/dataset/DataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4887">
-          <caret line="212" column="9" lean-forward="false" selection-start-line="212" selection-start-column="9" selection-end-line="212" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-0.9.1-sources.jar!/org/deeplearning4j/datasets/iterator/BaseDatasetIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/srcs/deeplearning4j-core-0.9.1-sources.jar!/org/deeplearning4j/datasets/fetchers/MnistDataFetcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4455">
-          <caret line="181" column="29" lean-forward="false" selection-start-line="181" selection-start-column="29" selection-end-line="181" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#6955#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jvm/src/main/scala/dl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="268" column="23" lean-forward="false" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
+        <state relative-caret-position="540">
+          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file:///media/1t/syncthing/code/scala/dl4j-scala/jvm/src/main/scala/jvmMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/1t/syncthing/code/scala/dl4j-scala/shared/src/main/scala/shared.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/1t/syncthing/code/scala/dl4j-scala/js/src/main/scala/test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/1t/syncthing/code/scala/dl4j-scala/js/src/main/scala/misc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/1t/syncthing/code/scala/dl4j-scala/js/src/main/scala/jsMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/1t/syncthing/code/scala/dl4j-scala/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.12.4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>js</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>sbt: com.lihaoyi:autowire_2.12:0.2.6:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

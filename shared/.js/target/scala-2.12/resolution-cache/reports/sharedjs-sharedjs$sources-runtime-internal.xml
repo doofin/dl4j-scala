@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, phantom-js-jetty"
-		date="20180221203712"/>
+		date="20180224192727"/>
 	<dependencies>
 		<module organisation="com.lihaoyi" name="autowire_sjs0.6_2.12">
 			<revision name="0.2.6" status="release" pubdate="20161108091057" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/ajax" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">

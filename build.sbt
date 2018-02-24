@@ -1,5 +1,4 @@
 name := "dl"
-maintainer := "dl"
 resolvers ++= Seq(
   Resolver.jcenterRepo,
   "Sonatype Releases" at "https://oss.sonatype.org/content/repositories/releases/",

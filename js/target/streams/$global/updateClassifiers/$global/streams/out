@@ -2947,39 +2947,39 @@
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-library_2.12;0.6.22!scalajs-library_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] com.lihaoyi#autowire_sjs0.6_2.12;0.2.6!autowire_sjs0.6_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.raquo.xstream#xstream_sjs0.6_2.12;0.3.1!xstream_sjs0.6_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.4!scalajs-dom_sjs0.6_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.raquo#dombuilder_sjs0.6_2.12;0.5!dombuilder_sjs0.6_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.raquo.xstream#xstream_sjs0.6_2.12;0.3.1!xstream_sjs0.6_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.12;0.6.22!scalajs-test-interface_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_sjs0.6_2.12;0.1.4!sourcecode_sjs0.6_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.12.4;0.6.22!scalajs-compiler_2.12.4.jar(src)
-[debug] 	[NOT REQUIRED] com.lihaoyi#scalatags_sjs0.6_2.12;0.6.7!scalatags_sjs0.6_2.12.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
-[debug] 	[NOT REQUIRED] com.raquo#laminar_sjs0.6_2.12;0.2!laminar_sjs0.6_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.lihaoyi#derive_sjs0.6_2.12;0.4.4!derive_sjs0.6_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.raquo#domtypes_sjs0.6_2.12;0.5!domtypes_sjs0.6_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.lihaoyi#upickle_sjs0.6_2.12;0.4.4!upickle_sjs0.6_2.12.jar(src)
-[debug] :: resolution report :: resolve 236ms :: artifacts dl 9ms
-[debug] 	report for js#js$sources;0.1.0-SNAPSHOT compile produced in /media/1t/syncthing/code/scala/scaladl/js/target/scala-2.12/resolution-cache/reports/js-js$sources-compile.xml
-[debug] 	report for js#js$sources;0.1.0-SNAPSHOT runtime produced in /media/1t/syncthing/code/scala/scaladl/js/target/scala-2.12/resolution-cache/reports/js-js$sources-runtime.xml
-[debug] 	report for js#js$sources;0.1.0-SNAPSHOT test produced in /media/1t/syncthing/code/scala/scaladl/js/target/scala-2.12/resolution-cache/reports/js-js$sources-test.xml
-[debug] 	report for js#js$sources;0.1.0-SNAPSHOT provided produced in /media/1t/syncthing/code/scala/scaladl/js/target/scala-2.12/resolution-cache/reports/js-js$sources-provided.xml
-[debug] 	report for js#js$sources;0.1.0-SNAPSHOT optional produced in /media/1t/syncthing/code/scala/scaladl/js/target/scala-2.12/resolution-cache/reports/js-js$sources-optional.xml
-[debug] 	report for js#js$sources;0.1.0-SNAPSHOT compile-internal produced in /media/1t/syncthing/code/scala/scaladl/js/target/scala-2.12/resolution-cache/reports/js-js$sources-compile-internal.xml
-[debug] 	report for js#js$sources;0.1.0-SNAPSHOT runtime-internal produced in /media/1t/syncthing/code/scala/scaladl/js/target/scala-2.12/resolution-cache/reports/js-js$sources-runtime-internal.xml
-[debug] 	report for js#js$sources;0.1.0-SNAPSHOT test-internal produced in /media/1t/syncthing/code/scala/scaladl/js/target/scala-2.12/resolution-cache/reports/js-js$sources-test-internal.xml
-[debug] 	report for js#js$sources;0.1.0-SNAPSHOT plugin produced in /media/1t/syncthing/code/scala/scaladl/js/target/scala-2.12/resolution-cache/reports/js-js$sources-plugin.xml
-[debug] 	report for js#js$sources;0.1.0-SNAPSHOT pom produced in /media/1t/syncthing/code/scala/scaladl/js/target/scala-2.12/resolution-cache/reports/js-js$sources-pom.xml
-[debug] 	report for js#js$sources;0.1.0-SNAPSHOT scala-tool produced in /media/1t/syncthing/code/scala/scaladl/js/target/scala-2.12/resolution-cache/reports/js-js$sources-scala-tool.xml
-[debug] 	report for js#js$sources;0.1.0-SNAPSHOT phantom-js-jetty produced in /media/1t/syncthing/code/scala/scaladl/js/target/scala-2.12/resolution-cache/reports/js-js$sources-phantom-js-jetty.xml
-[debug] 	resolve done (236ms resolve - 9ms download)
+[debug] 	[NOT REQUIRED] com.raquo#dombuilder_sjs0.6_2.12;0.5!dombuilder_sjs0.6_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.12.4;0.6.22!scalajs-compiler_2.12.4.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.12;0.6.22!scalajs-test-interface_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.raquo#laminar_sjs0.6_2.12;0.2!laminar_sjs0.6_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#derive_sjs0.6_2.12;0.4.4!derive_sjs0.6_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_sjs0.6_2.12;0.1.4!sourcecode_sjs0.6_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#scalatags_sjs0.6_2.12;0.6.7!scalatags_sjs0.6_2.12.jar(src)
+[debug] :: resolution report :: resolve 361ms :: artifacts dl 20ms
+[debug] 	report for js#js$sources;0.1.0-SNAPSHOT compile produced in /media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-compile.xml
+[debug] 	report for js#js$sources;0.1.0-SNAPSHOT runtime produced in /media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-runtime.xml
+[debug] 	report for js#js$sources;0.1.0-SNAPSHOT test produced in /media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-test.xml
+[debug] 	report for js#js$sources;0.1.0-SNAPSHOT provided produced in /media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-provided.xml
+[debug] 	report for js#js$sources;0.1.0-SNAPSHOT optional produced in /media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-optional.xml
+[debug] 	report for js#js$sources;0.1.0-SNAPSHOT compile-internal produced in /media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-compile-internal.xml
+[debug] 	report for js#js$sources;0.1.0-SNAPSHOT runtime-internal produced in /media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-runtime-internal.xml
+[debug] 	report for js#js$sources;0.1.0-SNAPSHOT test-internal produced in /media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-test-internal.xml
+[debug] 	report for js#js$sources;0.1.0-SNAPSHOT plugin produced in /media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-plugin.xml
+[debug] 	report for js#js$sources;0.1.0-SNAPSHOT pom produced in /media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-pom.xml
+[debug] 	report for js#js$sources;0.1.0-SNAPSHOT scala-tool produced in /media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-scala-tool.xml
+[debug] 	report for js#js$sources;0.1.0-SNAPSHOT phantom-js-jetty produced in /media/1t/syncthing/code/scala/dl4j-scala/js/target/scala-2.12/resolution-cache/reports/js-js$sources-phantom-js-jetty.xml
+[debug] 	resolve done (361ms resolve - 20ms download)
