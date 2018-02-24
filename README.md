@@ -8,3 +8,6 @@ then
 
     sbt 
     jvm/run
+
+# why build.sbt is so complex?
+    This project is a js cross project, I plan to do some visualization via scala.js in the future
