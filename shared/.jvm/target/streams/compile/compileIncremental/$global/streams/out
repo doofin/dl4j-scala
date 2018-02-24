@@ -1,34 +1,27 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/media/1t/syncthing/code/scala/scaladl/shared/src/main/scala/shared.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/media/1t/syncthing/code/scala/dl4j-scala/shared/src/main/scala/shared.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/sharedPure.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/Api$authLevel$admin$.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/sharedPure$.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/Api$authLevel$.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/sharedPure$Bool.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/Api$logInfo.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/sharedUtil$.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/sharedType$.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/Api$logInfo$.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/Api$.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/sharedUtil.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/Api$authLevel$teacher$.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/unauthApi.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/sharedType$name_password.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/sharedType.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/sharedStr$.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/Api.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/sharedStr.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/sharedType$name_password$.class, /media/1t/syncthing/code/scala/scaladl/shared/.jvm/target/scala-2.12/classes/Api$authLevel$permission.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/classes/sharedUtil$.class, /media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/classes/sharedUtil.class)[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(sharedStr, Api.authLevel.admin, Api.logInfo, sharedType.name_password, Api.authLevel.teacher, Api.authLevel, unauthApi, sharedUtil, sharedType, Api.authLevel.permission, Api, sharedPure, sharedPure.Bool)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/media/1t/syncthing/code/scala/scaladl/shared/src/main/scala/shared.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/media/1t/syncthing/code/scala/dl4j-scala/shared/src/main/scala/shared.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(sharedStr, Api.authLevel.admin, Api.logInfo, sharedType.name_password, Api.authLevel.teacher, Api.authLevel, unauthApi, sharedUtil, sharedType, Api.authLevel.permission, Api, sharedPure, sharedPure.Bool)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/media/1t/syncthing/code/scala/dl4j-scala/shared/src/main/scala/shared.scala, /media/1t/syncthing/code/scala/scaladl/shared/src/main/scala/shared.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
 [0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.0:compile for Scala 2.12.4[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.0:compile for Scala 2.12.4[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 62dd402a for Scala compiler version 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 11be07b1 for Scala compiler version 2.12.4[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/dubt/.sbt/boot/scala-2.12.4/lib/scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/media/1t/syncthing/code/scala/dl4j-scala/shared/.jvm/target/scala-2.12/classes:/home/dubt/.ivy2/cache/com.lihaoyi/upickle_2.12/jars/upickle_2.12-0.4.4.jar:/home/dubt/.ivy2/cache/com.lihaoyi/derive_2.12/jars/derive_2.12-0.4.4.jar:/home/dubt/.ivy2/cache/org.spire-math/jawn-parser_2.12/jars/jawn-parser_2.12-0.10.3.jar:/home/dubt/.ivy2/cache/com.lihaoyi/autowire_2.12/jars/autowire_2.12-0.2.6.jar:/home/dubt/.sbt/boot/scala-2.12.4/lib/scala-reflect.jar:/home/dubt/.ivy2/cache/io.suzaku/boopickle_2.12/jars/boopickle_2.12-1.2.6.jar:/home/dubt/.ivy2/cache/com.lihaoyi/scalatags_2.12/jars/scalatags_2.12-0.6.7.jar:/home/dubt/.ivy2/cache/com.lihaoyi/sourcecode_2.12/bundles/sourcecode_2.12-0.1.4.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.648449833 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.280486626 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

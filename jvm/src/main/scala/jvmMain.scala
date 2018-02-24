@@ -1,17 +1,8 @@
-import java.nio.ByteBuffer
-
-
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
-import akka.util.ByteString
-import scala.concurrent.{Await, ExecutionContext, ExecutionContextExecutor, Future}
+
 import scala.concurrent.duration.Duration
-
-import boopickle.Default._
-
-
-import sharedUtil._
-import Api.logInfo
+import scala.concurrent.{Await, ExecutionContextExecutor, Future}
 
 
 
@@ -39,58 +30,4 @@ object Main {
 
     def forceRun: R = Await.result(o, Duration.Inf) // Future t => t
   }
-
-
-  object rpc_server {
-
-    import autowire._
-
-    import scala.concurrent.ExecutionContext.Implicits.global //required!
-
-    object autowireServerUnauth {
-
-      private object autowireSerialization_
-        extends autowire.Server[ByteBuffer, Pickler, Pickler] {
-        override def read[R: Pickler](p: ByteBuffer) = Unpickle[R].fromBytes(p)
-
-        override def write[R: Pickler](r: R) = Pickle.intoBytes(r)
-      }
-
-      def run(apiImpl: unauthApi,
-              reqPathList: List[String],
-              reqBodyBytes: ByteString): Future[ByteBuffer] = {
-        autowireSerialization_.route[unauthApi](apiImpl)(
-          autowire.Core.Request(
-            reqPathList,
-            Unpickle[Map[String, ByteBuffer]].fromBytes(reqBodyBytes.asByteBuffer))
-        )
-      }
-
-    }
-
-    object autowireServer { // for future visualization usage
-
-      private object autowireSerialization_
-        extends autowire.Server[ByteBuffer, Pickler, Pickler] {
-        override def read[R: Pickler](p: ByteBuffer) = Unpickle[R].fromBytes(p)
-
-        override def write[R: Pickler](r: R) = Pickle.intoBytes(r)
-      }
-
-      def run(apiImpl: Api,
-              reqPathList: List[String],
-              reqBodyBytes: ByteString): Future[ByteBuffer] = {
-        autowireSerialization_.route[Api](apiImpl)(
-          autowire.Core.Request(
-            reqPathList,
-            Unpickle[Map[String, ByteBuffer]].fromBytes(reqBodyBytes.asByteBuffer))
-        )
-      }
-
-    }
-
-  }
-
-
-
 }
