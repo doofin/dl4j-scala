@@ -29,3 +29,6 @@ handwriting : http://papers.nips.cc/paper/3449-offline-handwriting-recognition-w
 handwriting ,improved http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7814068
 
 benchmarks : https://github.com/jpuigcerver/rnn2d/wiki/LSTM-2D
+
+intro : 
+CTC : https://gab41.lab41.org/speech-recognition-you-down-with-ctc-8d3b558943f0
